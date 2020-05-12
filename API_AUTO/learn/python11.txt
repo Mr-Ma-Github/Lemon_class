@@ -1,0 +1,2 @@
+2019-12-11 23:35:46,215-DEBUG-logging_learn.py-python-日志信息:python 2019-12-11 logging学习
+2019-12-11 23:35:46,216-ERROR-logging_learn.py-python-日志信息:好时：红珍珠-香浓牛奶巧克力

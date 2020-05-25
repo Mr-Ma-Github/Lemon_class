@@ -1,0 +1,195 @@
+[1590160458.286][INFO]: COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         },
+         "platformName": "any"
+      },
+      "firstMatch": [ {
+
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      },
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[1590160458.300][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1590160458.309][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1590160458.374][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension="C:\Users\haiyu.ma\AppData\Local\Temp\scoped_dir17676_20900\internal" --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=12364 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\haiyu.ma\AppData\Local\Temp\scoped_dir17676_26482" data:,
+[1590160459.404][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1590160460.438][INFO]: RESPONSE InitSession {
+   "acceptInsecureCerts": false,
+   "acceptSslCerts": false,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7)",
+      "userDataDir": "C:\\Users\\haiyu.ma\\AppData\\Local\\Temp\\scoped_dir17676_26482"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Windows NT",
+   "rotatable": false,
+   "setWindowRect": true,
+   "~~~": "..."
+}
+[1590160460.444][INFO]: COMMAND MaximizeWindow {
+   "sessionId": "2a521f10da0f20b5b0bd8e5d494bcb3b",
+   "windowHandle": "current"
+}
+[1590160460.448][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1590160461.621][INFO]: RESPONSE MaximizeWindow
+[1590160461.625][INFO]: COMMAND SetImplicitWait {
+   "ms": 30000.0,
+   "sessionId": "2a521f10da0f20b5b0bd8e5d494bcb3b"
+}
+[1590160461.625][INFO]: RESPONSE SetImplicitWait
+[1590160461.630][INFO]: COMMAND Navigate {
+   "sessionId": "2a521f10da0f20b5b0bd8e5d494bcb3b",
+   "url": "http://www.baidu.com"
+}
+[1590160461.630][INFO]: Waiting for pending navigations...
+[1590160461.688][INFO]: Done waiting for pending navigations. Status: ok
+[1590160461.975][INFO]: Waiting for pending navigations...
+[1590160462.505][INFO]: Done waiting for pending navigations. Status: ok
+[1590160462.505][INFO]: RESPONSE Navigate
+[1590160462.507][INFO]: COMMAND FindElement {
+   "sessionId": "2a521f10da0f20b5b0bd8e5d494bcb3b",
+   "using": "id",
+   "value": "s-usersetting-top"
+}
+[1590160462.507][INFO]: Waiting for pending navigations...
+[1590160462.508][INFO]: Done waiting for pending navigations. Status: ok
+[1590160462.523][INFO]: Waiting for pending navigations...
+[1590160462.527][INFO]: Done waiting for pending navigations. Status: ok
+[1590160462.527][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.25755955470150105-1"
+}
+[1590160462.534][INFO]: COMMAND MouseMove {
+   "element": "0.25755955470150105-1",
+   "sessionId": "2a521f10da0f20b5b0bd8e5d494bcb3b"
+}
+[1590160462.535][INFO]: Waiting for pending navigations...
+[1590160462.545][INFO]: Done waiting for pending navigations. Status: ok
+[1590160462.838][INFO]: Waiting for pending navigations...
+[1590160462.840][INFO]: Done waiting for pending navigations. Status: ok
+[1590160462.840][INFO]: RESPONSE MouseMove
+[1590160462.843][INFO]: COMMAND FindElement {
+   "sessionId": "2a521f10da0f20b5b0bd8e5d494bcb3b",
+   "using": "xpath",
+   "value": "//a[text()=\"高级搜索\"]"
+}
+[1590160462.843][INFO]: Waiting for pending navigations...
+[1590160462.845][INFO]: Done waiting for pending navigations. Status: ok
+[1590160462.866][INFO]: Waiting for pending navigations...
+[1590160462.869][INFO]: Done waiting for pending navigations. Status: ok
+[1590160462.869][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.25755955470150105-2"
+}
+[1590160462.871][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.25755955470150105-2"
+}
+[1590160462.871][INFO]: Waiting for pending navigations...
+[1590160462.873][INFO]: Done waiting for pending navigations. Status: ok
+[1590160462.889][INFO]: Waiting for pending navigations...
+[1590160462.890][INFO]: Done waiting for pending navigations. Status: ok
+[1590160462.890][INFO]: RESPONSE IsElementDisplayed true
+[1590160462.893][INFO]: COMMAND ClickElement {
+   "id": "0.25755955470150105-2",
+   "sessionId": "2a521f10da0f20b5b0bd8e5d494bcb3b"
+}
+[1590160462.893][INFO]: Waiting for pending navigations...
+[1590160462.894][INFO]: Done waiting for pending navigations. Status: ok
+[1590160462.999][INFO]: Waiting for pending navigations...
+[1590160463.000][INFO]: Done waiting for pending navigations. Status: ok
+[1590160463.000][INFO]: RESPONSE ClickElement
+[1590160463.002][INFO]: COMMAND FindElement {
+   "sessionId": "2a521f10da0f20b5b0bd8e5d494bcb3b",
+   "using": "xpath",
+   "value": "//select[@name=\"ft\"]"
+}
+[1590160463.003][INFO]: Waiting for pending navigations...
+[1590160463.003][INFO]: Done waiting for pending navigations. Status: ok
+[1590160493.041][INFO]: Waiting for pending navigations...
+[1590160493.043][INFO]: Done waiting for pending navigations. Status: ok
+[1590160493.043][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//select[@name="ft"]"}
+  (Session info: chrome=81.0.4044.138)

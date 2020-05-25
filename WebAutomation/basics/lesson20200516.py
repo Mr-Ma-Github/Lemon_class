@@ -5,7 +5,7 @@
 # id、name、classname、tagname
 from selenium import webdriver
 # 启动谷歌浏览器，开始与浏览器之间的会话
-driver = webdriver.Chrome(service_log_path=R"C:\Users\haiyu.ma\PycharmProjects\WebAutomation\chromedrive_service.log")
+driver = webdriver.Chrome(service_log_path=R"C:\Users\haiyu.ma\PycharmProjects\lemon_class\WebAutomation\basics\chromedrive_service.log")
 # 访问一个网页
 driver.get("http://www.baidu.com")
 # 窗口最大化
@@ -39,7 +39,7 @@ driver.find_element_by_xpath()
 # text():文本定位 --元素的text内容
 # 例: //*[@id="XXX"]//[text()="文本内容"]
 # contains(@属性名称/text(),value): 包含函数
-# 例: //*[contains(@class,"XXXX")]  或   contains(text(),"XXXX")
+# 例: //*[contains(@class,"XXXX")]  或   //*[contains(text(),"XXXX")]
 # 例: //div[@class="XXX"and contains(@style,"display:visibility")]
 # 应用场景:一个页面的几个操作,都会有弹出框出现。定位到弹出框会有几个。
 # 但通过display的值来定位到当前显示的那一个。

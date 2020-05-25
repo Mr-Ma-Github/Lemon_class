@@ -3,7 +3,7 @@
 #@创建日期：2020-05-15 23:18 
 from selenium import webdriver
 # 启动谷歌浏览器，开始与浏览器之间的会话
-driver = webdriver.Chrome(service_log_path=R"C:\Users\haiyu.ma\PycharmProjects\WebAutomation\chromedrive_service.log")
+driver = webdriver.Chrome(service_log_path=R"C:\Users\haiyu.ma\PycharmProjects\lemon_class\WebAutomation\basics\chromedrive_service.log")
 # 访问一个网页
 driver.get("http://www.baidu.com")
 # 窗口最大化

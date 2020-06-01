@@ -12,7 +12,7 @@ class DoExcel:
            mode只是一个参数名，mode的值只能输入all  列表  '''
 
         #从配置文件中读取mode值
-        mode=ReadConfig().read_config('case.config','MODE','mode')
+        mode=ReadConfig().read_config(R'C:\Users\haiyu.ma\PycharmProjects\lemon_class\APIAutomation\class_1120\case.config','MODE','mode')
 
         wb=load_workbook(self.file_name)
         sheet=wb[self.sheet_name]

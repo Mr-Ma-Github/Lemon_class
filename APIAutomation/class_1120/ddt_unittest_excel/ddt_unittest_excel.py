@@ -5,7 +5,8 @@ from class_1120.get_data import GetData
 from ddt import ddt,data,unpack
 from class_1120.do_excel import DoExcel
 
-test_data = DoExcel("Excel_study.xlsx", "python").get_data()#这里传参可控制想要执行的用例all/列表
+test_data = DoExcel(R"C:\Users\haiyu.ma\PycharmProjects\lemon_class\APIAutomation\class_1120\Excel_study.xlsx", "python").get_data()#这里传参可控制想要执行的用例all/列表
+
 @ddt
 class TestHttpRequest(unittest.TestCase):
     def setUp(self):

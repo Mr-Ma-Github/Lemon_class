@@ -3,6 +3,8 @@
 #@创建日期：2019-12-07 13:02
 import unittest
 import HTMLTestRunner
+import sys
+sys.path.append('C:\\Users\haiyu.ma\PycharmProjects\lemon_class\APIAutomation')
 from API_AUTO.tools.project_path import test_report_path
 from API_AUTO.tools.test_http_request import TestHttpRequest
 

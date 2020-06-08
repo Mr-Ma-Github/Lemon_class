@@ -1,21 +1,22 @@
 #-*-coding:utf-8-*-
 #@作者：haiyu.ma
 #@创建日期：2020-05-31 17:49 
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.by import By
-from PageLocators.loginpage_locators import LoginPageLocators as loc
 
+from PageLocators.userpage_locators import UserPageLocators as loc
+from Common.basepage import BasePage
 
-class UserPage:
-    def __init__(self,driver):
-        self.driver = driver
+class UserPage(BasePage):
 
-    #获取金额
-    def get_money(self):
-        WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located())
-        return self.driver.find_element().text
+    #获取用户余额
+    def get_user_leftMoney(self):
+        doc = "个人页面_获取用户余额"
+        # 等待元素
+        self.wait_eleVisible(loc.user_leftMoney, doc=doc)
+        # 获取个人可用余额的文本内容
+        text = self.get_text(loc.user_leftMoney, doc)
+        # 截取数字部分 --分隔符为：元
+        return text.strip("元")
 
-    def user_page_close(self):
-        WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located())
-        self.driver.find_element().click()
+    # 获取第一条投资记录的时间、投资金额、收益金额--拓展
+    # def  get_first_investRecord_info(self):
+    # pass

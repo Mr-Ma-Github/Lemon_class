@@ -8,14 +8,14 @@ from PageObjects.index_page import IndexPage
 from TestDatas import Common_Datas as CD
 from TestDatas.LoginModuleDatas import login_datas as LD
 from ddt import ddt,data
-
+import pytest
+import logging
 
 @ddt
 class TestLogin(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):#所有用例执行前,整个测试类只执行一次
-        #通过Excel读取本功能当中需要的所有测试数据
         cls.driver = webdriver.Chrome()
         cls.driver.get(CD.web_login_url)
         cls.lg = LoginPage(cls.driver)
@@ -41,7 +41,9 @@ class TestLogin(unittest.TestCase):
         self.driver.refresh()
 
     # 正常用例--登录成功
+    @pytest.mark.smoke
     def test_login_2_success(self):
+        logging.info("***登录用例：正常场景：使用正确的用户名和密码登录*****")
         #步骤  输入用户名：XXX、密码XXX、点击登录
         self.lg.login(LD.success_data["username"], LD.success_data["password"])
         #断言  首页当中--能否找到  退出  元素

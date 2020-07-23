@@ -1,0 +1,7 @@
+platformVersion: 7.1.2
+platformName: Android
+deviceName: Emulator
+appPaqkage: com.tencent.mm
+appActivity: com.tencent.mm.ui.LauncherUI
+noReset: True
+automationName: UiAutomation2

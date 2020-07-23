@@ -38,7 +38,7 @@ driver.find_element_by_xpath()
 # 4) 函数使用:
 # text():文本定位 --元素的text内容
 # 例: //*[@id="XXX"]//[text()="文本内容"]
-# contains(@属性名称/text(),value): 包含函数
+# contains(@属性名称/text(),value) 或 //*[contains(text(),"value")]  包含函数
 # 例: //*[contains(@class,"XXXX")]  或   //*[contains(text(),"XXXX")]
 # 例: //div[@class="XXX"and contains(@style,"display:visibility")]
 # 应用场景:一个页面的几个操作,都会有弹出框出现。定位到弹出框会有几个。

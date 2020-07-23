@@ -82,11 +82,10 @@
 # 1、安装allure
 #    1) 下载 allure.zip
 #    下载地址: allure-github: https://github.com/allure-framework/allure2
-#    2) 解压到本地目录、配置allure.bat的环境变量ALLURE_HOME;
-#    在命令行中运行allure.确认环镜变量配置成功。
-#    环境变量：ALLURE_HOME      文件安装路径(bin)例如：D\allure-2.7.0\bin
-# 2、pytest插件安装     命令: pip install pytest-allure-adaptor
+#    2) 解压到本地目录、配置allure.bat的环境变量
+#    在命令行中运行allure 确认环镜变量配置成功。
+#    环境变量：path      文件安装路径(bin)例如：D\allure-2.7.0\bin
+# 2、pytest插件安装     命令: pip install allure-pytest
 # 3、Pytest生成allure测试报告的命令参数   命令:--alluredir=/XXX/my_allure_results
-# 4、查看allure的测试报告  命令：allure serve allure 报告目录
-# 示例: allure serve D:\python_web_pytest_allure\HtmlTestReport\allure
-# allure文档: https://docs.qameta.io/allure/
+# 4、查看allure的测试报告  命令：allure serve allure报告目录
+# 示例: allure serve C:\Users\haiyu.ma\PycharmProjects\lemon_class\WebAutomation\Outputs\allure_reports

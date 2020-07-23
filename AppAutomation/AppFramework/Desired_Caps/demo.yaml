@@ -1,0 +1,13 @@
+#字典
+platformVersion: 7.1.2
+platformName: Android
+deviceName: Emulator
+demo:
+  - hello
+  - yaml
+  - yeah
+hhh:
+  name: sd
+  sex: df
+test: 123
+

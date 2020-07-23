@@ -14,3 +14,5 @@ phone_data = [{"username":"186847205531","password":"python","check":"请输入�
 # 异常用例--手机号未注册、密码错误...
 NoReg_ErrorPwd = [{"username":"18000000000","password":"python","check":"未注册"},
                   {"username":"18684720553","password":"python1","check":"密码错误"}]
+
+print(phone_data[0]["username"])

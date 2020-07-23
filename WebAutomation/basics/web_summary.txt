@@ -1,0 +1,49 @@
+1、web基础 - html、dom对象、javascript基本语法
+
+2、元素定位:
+    八大元素定位: id,name,class_name,tag_name,link_text,partial_link_text,xpath,css
+    xpath:  //标签名[@属性名=值 and/or @属性名=值]
+            //标签名[text()=文本值]
+            //标签名[contains(text0/@属性值,部分值)]
+    1、层级定位:先定位到上级上上级,缩小范围。再定位元素。
+    2、轴定位:找各种关系来定位
+        ancestor:
+        parent:
+        preceding-sibling
+        following-sibling
+    原则:尽量不要使用绝对路径和下标;匹配一个元素;选择元素稳定的属性\
+    (可变的属性不要作为元素定位手段)
+
+3、元素操作
+    基本操作: send_keys, click, text, get_attribute
+    三种等待方式: sleep, implicity_wait, WebdriverWait和expected_condition
+    显性等待: WebDriverWait(driver, timeout,0.5).until/until_not
+    expected_condition: 元素可见 visibility_of_element_located((元素定位类型，元素定位表达式)
+    三种切换: iframe、window、alert - 都有一个显性等待
+              driver.switch_to.frame/window/alert
+              iframe: name、下标、WebElement对象
+              windows:要获取当前所有的window_handle(driver.window_handle)列表。最后一个是最新打开的窗口。
+              alert: Alert类, accetp/dissmis
+    鼠标/键盘:ActionChains类:鼠标行为函数(move to_element、悬浮元素的定位)、perform()-执行鼠标操作。能不用鼠标就不用鼠标。
+              send keys(Keys类)
+    下拉列表:Select/option - Select类来处理。实例化类参数:Select元素。 列表选值的三种方式:index/value/visible_text
+    js-滚动条 : driver.execute_script(js语句, 参数) Arguments[0].scrollIntoView()     scrollIntoViewlfneeded()
+    js-日期:日期输入框readonly -移除readonly属性
+    文件上传: autoit/pywin32
+
+4、 selenium原理
+
+5、项目实战+框架
+    1、业务了解,需求了解
+    2、测试用例的实现、筛选、用例评审
+    3、框架、大概用多少时间实现自动化测试用例、持续集成jenkins、优化和调试、提高用例通过率、哪些是冒烟用例(什么时候/运行时长)、SIT/预生产、邮件通知
+    4、维护阶段(分析测试报告--哪些是bug、哪些是你代码的bug、哪些是环境问题)
+    5、汇报
+
+6、PageObjects模式
+        PO模式: PageObjects(页面操作、元素定位)、TestCases(业务流程)  测试用例和测试对象分离。
+          分层: PageLocators, TestDatas
+        Common: basepage:封装基本函数、异常处理、失败截图、日志
+       Outputs: Logs, Screenshots, Reports
+    pytest框架: mark、参数化、fixture/conftest.py(前置和后置)、重运行(reruns)、html测试报告、allure测试报告、xml测试报告(定制化)
+

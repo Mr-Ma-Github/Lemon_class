@@ -16,7 +16,7 @@ import logging
 @pytest.mark.demo
 def test_demo():
     print("test")
-    assert False
+    assert True
 
 def demo():
     print("test")

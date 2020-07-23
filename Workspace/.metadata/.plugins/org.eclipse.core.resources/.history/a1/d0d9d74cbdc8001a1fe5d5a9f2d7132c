@@ -1,0 +1,21 @@
+from robot.api import logger
+from openpyxl import load_workbook
+
+from robot.errors import DataError
+from robot.libraries.BuiltIn import BuiltIn
+from robot.utils import is_string
+
+
+
+
+class myExcelLibrary(object):#类名与模块名保持一致
+
+    ROBOT_LIBRARY_VERSION = 1.0
+    ROBOT_LIBRARY_SCOPE = "GLOBAL"
+    
+    def __init__(self,filepath = None):
+        logger.info("打开一个Excel文件")
+        pass
+
+    def keyword(self):
+        pass

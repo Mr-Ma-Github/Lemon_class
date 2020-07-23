@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.1 (Python 3.6.4 on win32)" generated="20200723 09:34:50.392" rpa="false">
+<suite id="s1" name="Python Robot" source="M:\eclipse\Workspace\python_robot">
+<suite id="s1-s1" name="测试用例集" source="M:\eclipse\Workspace\python_robot\测试用例集.robot">
+<test id="s1-s1-t1" name="用例8">
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>True</arg>
+</arguments>
+<assign>
+<var>${flag}</var>
+</assign>
+<msg timestamp="20200723 09:34:50.489" level="INFO">${flag} = True</msg>
+<status status="PASS" starttime="20200723 09:34:50.488" endtime="20200723 09:34:50.489"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>0</arg>
+</arguments>
+<assign>
+<var>${a}</var>
+</assign>
+<msg timestamp="20200723 09:34:50.490" level="INFO">${a} = 0</msg>
+<status status="PASS" starttime="20200723 09:34:50.490" endtime="20200723 09:34:50.490"></status>
+</kw>
+<kw name="Set Variable If" library="BuiltIn">
+<doc>Sets variable based on the given condition.</doc>
+<arguments>
+<arg>"${flag}"=="True"</arg>
+<arg>12</arg>
+<arg>${a}</arg>
+</arguments>
+<assign>
+<var>${a}</var>
+</assign>
+<msg timestamp="20200723 09:34:50.492" level="INFO">${a} = 12</msg>
+<status status="PASS" starttime="20200723 09:34:50.491" endtime="20200723 09:34:50.492"></status>
+</kw>
+<status status="PASS" starttime="20200723 09:34:50.486" endtime="20200723 09:34:50.492" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200723 09:34:50.467" endtime="20200723 09:34:50.493"></status>
+</suite>
+<status status="PASS" starttime="20200723 09:34:50.437" endtime="20200723 09:34:50.495"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Python Robot">Python Robot</stat>
+<stat pass="1" fail="0" id="s1-s1" name="测试用例集">Python Robot.测试用例集</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

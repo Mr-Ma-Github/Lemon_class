@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;python_web/测试用例层&apos; to &apos;测试数据层&apos;" description="Rename resource &apos;测试用例层&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="测试用例层" name="测试数据层" stamp="1594739031111" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;python_web/测试用例层1&apos; to &apos;测试用例层&apos;" description="Rename resource &apos;测试用例层1&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="测试用例层1" name="测试用例层" stamp="1594739039507" updateReferences="true"/>
+</session>

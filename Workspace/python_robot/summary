@@ -1,0 +1,46 @@
+ride
+
+eclipse
+
+关键字
+系统关键字：库	标准库		第三方库	自定义库
+用户关键字：安装RF编写规则、根据业务需求定义的关键字、资源文件、测试套件
+Evaluate	#执行python语句
+
+setting:Library		Resource		Variables    #引入库
+		Documentation	#说明
+		Test setup		Test teardown
+		Suite setup		Suite teardown
+		Test timeout
+		Test template
+		
+		Tags:Force Tags		#包含该设置的测试用例文件中所有用例都被指定打上这些标签
+			 Default Tags	#默认标签，如果用例没有标签则使用Demo标签，如果有用自己的
+		
+variables：	${}		@{}		&{}				#定义变量
+			set	variable		create list			create dictionary
+			
+			变量文件 .py:	LIST__			DICT__
+			
+			*** Variables ***
+			
+运行配置:pybot命令	-i运作指定的测试用例
+				-s运作指定的测试套件
+				-d指定报告生成目录
+				-R重运行(测试结果)
+				-v运行时的变量(全局)
+				。。。
+
+seleniumLibrary:
+RequestsLibrary:
+AppiumLibrary:
+			
+
+工作层级:业务用例	业务关键字	系统关键字	库	robotframework	python
+
+
+
+
+
+
+		

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.robotframework.ide.tableditor.activePage./python_rebot/测试用例集.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./python_rebot/用户关键字集.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.project.editor.activePage.python_rebot">
+		<item key="activePage" value="LibrariesProjectConfigurationEditorPart"/>
+	</section>
+	<section name="problemPreferences">
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./python_rebot/selenium使用.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./python_web/测试用例层/__init__.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./python_web/元素定位层/登录页面.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.project.editor.activePage.python_web">
+		<item key="activePage" value="LibrariesProjectConfigurationEditorPart"/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./python_web/元素定位层/124.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./python_web/页面对象层/登录页面关键字.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./python_web/测试用例层/登录用例.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./python_web/测试用例层/前置后置集.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./python_rebot/robot_api.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./python_rebot/数据驱动.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./python_web1/测试用例层/前置后置集.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./python_web1/测试用例层/登录用例.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./python_robot/测试用例集.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./python_robot/数据驱动.robot">
+		<item key="activePage" value=""/>
+	</section>
+	<section name="org.robotframework.ide.project.editor.activePage.python_robot">
+		<item key="activePage" value="LibrariesProjectConfigurationEditorPart"/>
+	</section>
+</section>

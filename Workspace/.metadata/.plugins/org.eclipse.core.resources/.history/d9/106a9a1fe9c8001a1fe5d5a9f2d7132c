@@ -1,0 +1,45 @@
+1.RF运行配置
+	pybot命令 =pytest  筛选和过滤用例
+	-i -d -v..
+	pybot 【参数】  测试用例路径
+	
+2.扩展自定义	库
+	类和模块的形式
+	模块名称=类名
+	模块名称和名称保持一致=库名
+	
+	完全按照python代码来编写
+	如果是类：    ROBOT_LIBRARY_SCOPE = "GLOBAL"
+	
+	使用：
+	Library	库名-相对路径
+	
+	按照其他库的关键字调用方式一样 
+
+
+3.RF命令参数
+	RF内置pybot命令。命令参数要区分大小写。
+	格式：pybot[参数] 测试用例全路径
+	示例：>pybot -i smoke D:\code\RF控制流\RF控制流之for循环.txt
+
+	运行指定的用例：-t,--test <name>	
+	运行指定的用例套件：-s,--suite <name>
+	运行指定标签的用例：-i,--include <tag>	
+	运行指定标签以外的用例：-e,--exclude <tag>
+	指定文件输出的目录：-d,--outputdir <dir>	#未指定，默认生成在运行命令的路径下
+	指定文件输出文件名(xml文件)：-o,--output <file>
+	设置运行时的变量：-v,--variable <name:value>	
+	设置运行时变量(从文件读取)：-V,--variablefile <path:args>
+	设置重新运行失败的用例：-R,--rerunfailed <outputxml_file>		
+	设置重新运行失败的用例套件：-S,--rerunfailedsuites <outputxml_file>
+	示例：
+	dos命令：
+	pybot -t Python_Web.测试用例层.登录用例.异常用例-用户名为空 M:\eclipse\Workspace\python_web
+	pybot -i smoke M:\eclipse\Workspace\python_web
+	pybot -i smoke -d M:\eclipse\Workspace\python_web\测试报告 M:\eclipse\Workspace\python_web
+	pybot -i VVV -d M:\eclipse\Workspace\python_web\测试报告 -v web_url:www.baidu.com M:\eclipse\Workspace\python_web
+	pybot -i VVV -d M:\eclipse\Workspace\python_web\测试报告 -v web_url:www.baidu.com -R M:\eclipse\Workspace\python_web\测试报告\output.xml M:\eclipse\Workspace\python_web
+	作者：szbelieve
+	链接：https://www.jianshu.com/p/3f9404eb36b5
+	来源：简书
+	著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。

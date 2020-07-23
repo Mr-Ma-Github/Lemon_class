@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keywordspec format="ROBOT" generated="2020-07-22T16:07:03Z" lineno="5" name="myExcelLibrary" namedargs="true" scope="GLOBAL" source="M:\eclipse\Workspace\python_web1\myExcelLibrary.py" specversion="2" type="LIBRARY">
+<version>1.0</version>
+<scope>global</scope>
+<namedargs>yes</namedargs>
+<doc>自定义的Excel操作库
+所有的关键字</doc>
+<init lineno="13">
+<arguments>
+<arg>flag=None</arg>
+</arguments>
+<doc>Initialize self.  See help(type(self)) for accurate signature.</doc>
+</init>
+<kw lineno="35" name="Add Function">
+<arguments>
+<arg>a</arg>
+<arg>b</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="17" name="Open Excel">
+<arguments>
+<arg>filepath</arg>
+</arguments>
+<doc>Hello Excel.open it!</doc>
+</kw>
+<kw lineno="31" name="Read Data">
+<arguments>
+<arg>row</arg>
+<arg>column</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="24" name="Select Sheet">
+<arguments>
+<arg>sheetname=None</arg>
+</arguments>
+<doc>select a sheet!</doc>
+</kw>
+</keywordspec>

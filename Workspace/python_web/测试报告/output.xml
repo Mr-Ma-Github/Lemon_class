@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.1 (Python 3.6.4 on win32)" generated="20200723 09:54:31.764" rpa="false">
+<suite id="s1" name="Python Web" source="M:\eclipse\Workspace\python_web">
+<suite id="s1-s1" name="测试用例层" source="M:\eclipse\Workspace\python_web\测试用例层">
+<suite id="s1-s1-s1" name="登录用例" source="M:\eclipse\Workspace\python_web\测试用例层\登录用例.robot">
+<test id="s1-s1-s1-t1" name="用例3-读取-v参数传进来的全局变量">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${web_url}</arg>
+</arguments>
+<msg timestamp="20200723 09:54:34.682" level="INFO">www.baidu.com</msg>
+<status status="PASS" starttime="20200723 09:54:34.678" endtime="20200723 09:54:34.682"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary" type="teardown">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200723 09:54:34.683" endtime="20200723 09:54:34.683"></status>
+</kw>
+<tags>
+<tag>smoke</tag>
+<tag>VVV</tag>
+</tags>
+<status status="PASS" starttime="20200723 09:54:34.675" endtime="20200723 09:54:34.684" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200723 09:54:31.843" endtime="20200723 09:54:34.684"></status>
+</suite>
+<status status="PASS" starttime="20200723 09:54:31.839" endtime="20200723 09:54:34.687"></status>
+</suite>
+<status status="PASS" starttime="20200723 09:54:31.807" endtime="20200723 09:54:34.690"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0">smoke</stat>
+<stat pass="1" fail="0">VVV</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Python Web">Python Web</stat>
+<stat pass="1" fail="0" id="s1-s1" name="测试用例层">Python Web.测试用例层</stat>
+<stat pass="1" fail="0" id="s1-s1-s1" name="登录用例">Python Web.测试用例层.登录用例</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

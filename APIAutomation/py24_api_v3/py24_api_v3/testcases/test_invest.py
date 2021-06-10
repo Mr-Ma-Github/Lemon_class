@@ -32,8 +32,8 @@ class TestInvest(unittest.TestCase):
         # 第一步：准备用例数据
         url = conf.get_str("env", "url") + case["url"]
         # 请求参数
-        case["data"] = replace_data(case["data"])
-        data = eval(case["data"])
+        case["data.txt"] = replace_data(case["data.txt"])
+        data = eval(case["data.txt"])
         # 请求的方法
         method = case["method"]
         # 请求头

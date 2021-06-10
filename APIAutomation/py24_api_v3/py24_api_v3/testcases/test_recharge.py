@@ -89,8 +89,8 @@ class TestRecharge(unittest.TestCase):
         method = case["method"]
         # 请求参数
         # 替换用例参数
-        case["data"] = replace_data(case["data"])
-        data = eval(case["data"])
+        case["data.txt"] = replace_data(case["data.txt"])
+        data = eval(case["data.txt"])
         # 获取sign和时间戳
         sign_data = HandleSign.generate_sign(getattr(TestData, "token"))
         # 将sign加入到请求参数中

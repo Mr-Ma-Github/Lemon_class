@@ -1,0 +1,3 @@
+
+2020-09-17 22:58:41,948-WARNING-logging_learn.py-python-行号:61-日志信息:慕拉蓝钻冰白葡萄酒
+2020-09-17 22:58:41,948-ERROR-logging_learn.py-python-行号:62-日志信息:好时：红珍珠-香浓牛奶巧克力

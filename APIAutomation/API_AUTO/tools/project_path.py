@@ -3,11 +3,12 @@
 #@创建日期：2019-12-08 14:21
 import os
 # 专门来获取路径的值
-project_path=os.path.split(os.path.split(os.path.realpath(__file__))[0])[0]
+# project_path=os.path.split(os.path.split(os.path.realpath(__file__))[0])[0]
+project_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # print(project_path)
 # 测试用例的路径
-test_case_path=os.path.join(project_path,"test_data","test_data.xlsx")
-# print(test_case_path)
+test_case_path = os.path.join(project_path, r"test_data\test_data.xlsx")
+print(test_case_path)
 # 测试报告的路径
 test_report_path=os.path.join(project_path,"test_result","html_report","test_report.html")
 # print(test_case_path)

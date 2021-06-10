@@ -32,7 +32,7 @@ class TestLogin(unittest.TestCase):
         # 请求的方法
         method = case["method"]
         # 请求参数
-        data = eval(case["data"])
+        data = eval(case["data.txt"])
         # 请求头
         headers = eval(conf.get_str("env", "headers"))
         # 预期结果

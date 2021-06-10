@@ -5,26 +5,40 @@
 # t=[1,2]
 # print(*t)#加*号--》脱外套
 
-# ddt  ddt+unittest 来进行数据的处理  第三方库
-#装饰器   可以自行去了解   会在你的函数运行之前运行
+# @:装饰器   可以自行去了解   会在你的函数运行之前运行
+# ddt:数据驱动思想：data driver testing
+# ddt搭配unittest 来进行数据的处理，是unittest的一个插件
+# python / unittest / ddt 自动化测试框架
+
+"""
+用法：
+import ddt
+@ddt.ddt
+class ClassName:
+    @ddt.data()
+    def test_demo(self):
+        pass
+"""
+
 import unittest
-from ddt import ddt,data,unpack
+from ddt import ddt, data, unpack
 
-test_data=[[1,3],[4,5,7]]#-->[1,3],[4,5,7]-->1  3要用两个参数来接收，4 5 7要用三个来接收
-
-@ddt#装饰测试类
-class TestMath(unittest.TestCase):
-
-    @data(*test_data)#装饰测试方法   拿到几个数据就执行几次用例
-    @unpack#如果unpack后的参数 少于5个 推荐使用。要注意参数不多等的情况，提供对应个数的参数来接收变量
-    def test_print_data(self,a,b,c=None):#测试用例
-        print("a:",a)
-        print("b:",b)
-        print("c:",c)
+# test_data = [[1, 3], [4, 5, 7]]#-->[1,3],[4,5,7]-->1  3要用两个参数来接收，4 5 7要用三个来接收
+#
+# @ddt#装饰测试类
+# class TestMath(unittest.TestCase):
+#
+#     @data(*test_data)#装饰测试方法   拿到几个数据就执行几次用例[1, 3], [4, 5, 7]
+#     @unpack#如果unpack后的参数 少于5个 推荐使用。要注意参数不多等的情况，提供对应个数的参数来接收变量
+#     # @unpack 会把数据再次拆解，拆解后需要提供对应个数的参数来接收变量
+#     def test_print_data(self,a,b,c=None):  # 测试用例
+#         print("a:",a)
+#         print("b:",b)
+#         print("c:",c)
 
 # # -------------------------------------------------------
-# test_data=[{"url":1,"name":"稳当"},{"url":2,"name":"小黄"}]#列表里面嵌套字典
-# @ddt#装饰测试类
+# test_data = [{"url": 1, "name": "稳当"}, {"url":2, "name": "小黄"}]#列表里面嵌套字典
+# @ddt  # 装饰测试类
 # class TestMath(unittest.TestCase):
 #
 #     @data(*test_data)#装饰测试方法   拿到几个数据就执行几次用例
@@ -38,7 +52,7 @@ class TestMath(unittest.TestCase):
 #     #     print("url:", url)
 #     #     print("name:", name)
 
-# # 异常用例--手机号格式不正确(大于11位、小于11位、为空)
+# 异常用例--手机号格式不正确(大于11位、小于11位、为空)
 # phone_data = [{"username":"186847205531","password":"python","check":"请输入正确的手机号"},
 #               {"username":"1868472055","password":"python","check":"请输入正确的手机号"},
 #               {"username":"","password":"python","check":"请输入手机号"}]
@@ -47,11 +61,11 @@ class TestMath(unittest.TestCase):
 # class TestLogin(unittest.TestCase):
 #
 #     @data(*phone_data)
-#     def test_login_user_wrongFormat(self,data):
+#     def test_login_user_wrongFormat(self, data):
 #         print(data)
 #
 # if __name__ == '__main__':
-#     tl = TestLogin().test_login_user_wrongFormat(data)
+#     tl = TestLogin().test_login_user_wrongFormat(phone_data)
 
 
 

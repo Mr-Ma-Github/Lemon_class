@@ -16,3 +16,5 @@ print(hasattr(GetData,'cookie'))#判断是否有这个属性值
 print(getattr(GetData,'cookie'))#获取这个属性
 delattr(GetData,'cookie')       #删除这个属性
 print(hasattr(GetData,'cookie'))#判断是否有这个属性值
+
+

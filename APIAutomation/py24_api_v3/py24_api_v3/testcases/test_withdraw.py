@@ -57,8 +57,8 @@ class TestWithdraw(unittest.TestCase):
         method = case["method"]
         # 请求参数
         # 判断是否有用户id需要替换
-        case["data"] = replace_data(case["data"])
-        data = eval(case["data"])
+        case["data.txt"] = replace_data(case["data.txt"])
+        data = eval(case["data.txt"])
 
         # 请求头
         headers = eval(conf.get_str("env", "headers"))

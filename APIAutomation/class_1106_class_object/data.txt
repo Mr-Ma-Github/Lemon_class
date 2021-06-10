@@ -1,0 +1,2 @@
+url:www.baidu.com@username:admin@password:pwd
+url:www.yinyue.com@username:student@password:pwd124

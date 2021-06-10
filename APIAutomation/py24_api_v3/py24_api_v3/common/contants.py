@@ -28,7 +28,7 @@ BASEDIR = os.path.dirname(os.path.dirname(__file__))
 # 配置文件的路径
 CONF_DIR = os.path.join(BASEDIR, "conf")
 # 用例数据的目录
-DATA_DIR = os.path.join(BASEDIR, "data")
+DATA_DIR = os.path.join(BASEDIR, "data.txt")
 # 日志文件目录
 LOG_DIR = os.path.join(BASEDIR, "log")
 # 测试报告的路

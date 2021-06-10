@@ -2,13 +2,13 @@
 # exxel处理测试数据 测试结果 pip install openpyxl
 # ddt   pip install ddt
 test_data=[{"url":"http://119.23.241.154:8080/futureloan/mvc/api/member/login",
-"data": {"mobilephone": "18688773467", "pwd": "123456"}, "excepted": "10001", "method": "get"},
+"data.txt": {"mobilephone": "18688773467", "pwd": "123456"}, "excepted": "10001", "method": "get"},
 {"url": "http://119.23.241.154:8080/futureloan/mvc/api/member/login",
-"data": {"mobilephone": "18688773467", "pwd": "325"}, "excepted": "20111", "method": "post"},
+"data.txt": {"mobilephone": "18688773467", "pwd": "325"}, "excepted": "20111", "method": "post"},
 {"url": "http://119.23.241.154:8080/futureloan/mvc/api/member/recharge",
-"data": {"mobilephone": "18688773467", "amount": "1000"}, "excepted": "10001", "method": "get"},
+"data.txt": {"mobilephone": "18688773467", "amount": "1000"}, "excepted": "10001", "method": "get"},
 {"url": "http://119.23.241.154:8080/futureloan/mvc/api/member/recharge",
-"data": {"mobilephone": "18688773467", "amount": "-100"}, "excepted": "20117", "method": "get"}]
+"data.txt": {"mobilephone": "18688773467", "amount": "-100"}, "excepted": "20117", "method": "get"}]
 
 # for item in test_data:
 #     print(item["url"])

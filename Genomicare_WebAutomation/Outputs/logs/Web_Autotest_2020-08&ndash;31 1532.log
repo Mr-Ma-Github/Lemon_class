@@ -1,0 +1,65 @@
+Mon, 31 Aug 2020 15:32:55 INFO basepage.py wait_elePresence [line:56 INFO 日志信息:等待元素('xpath', '//a[@class="alert-link"]')存在]
+Mon, 31 Aug 2020 15:32:55 INFO basepage.py wait_elePresence [line:67 INFO 日志信息:等待结束、等待时长为：0]
+Mon, 31 Aug 2020 15:32:55 INFO basepage.py click_element [line:89 INFO 日志信息:点击元素：('xpath', '//a[@class="alert-link"]')]
+Mon, 31 Aug 2020 15:32:55 ERROR basepage.py click_element [line:94 ERROR 日志信息:元素点击操作失败！！！]
+Traceback (most recent call last):
+  File "C:\Users\haiyu.ma\PycharmProjects\lemon_class\Genomicare_WebAutomation\Common\basepage.py", line 92, in click_element
+    ele.click()
+  File "C:\python36\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\python36\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotVisibleException: Message: element not visible
+  (Session info: chrome=84.0.4147.135)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+Mon, 31 Aug 2020 15:32:55 INFO basepage.py wait_elePresence [line:56 INFO 日志信息:等待元素('xpath', '//a[@class="alert-link"]')存在]
+Mon, 31 Aug 2020 15:32:55 INFO basepage.py wait_elePresence [line:67 INFO 日志信息:等待结束、等待时长为：0]
+Mon, 31 Aug 2020 15:32:55 INFO basepage.py click_element [line:89 INFO 日志信息:点击元素：('xpath', '//a[@class="alert-link"]')]
+Mon, 31 Aug 2020 15:32:55 INFO basepage.py wait_eleVisible [line:30 INFO 日志信息:等待元素('xpath', '//input[@id="username"]')可见]
+Mon, 31 Aug 2020 15:32:55 INFO basepage.py wait_eleVisible [line:40 INFO 日志信息:登录页面_登录功能:元素('xpath', '//input[@id="username"]')已可见,等待起始时间:2020-08-31 15:32:55.765859,等待结束时间:2020-08-31 15:32:55.803859,等待时长为：0]
+Mon, 31 Aug 2020 15:32:55 INFO basepage.py input_text [line:103 INFO 日志信息:元素输入：('xpath', '//input[@id="username"]')]
+Mon, 31 Aug 2020 15:32:58 INFO basepage.py input_text [line:103 INFO 日志信息:元素输入：('xpath', '//input[@id="password"]')]
+Mon, 31 Aug 2020 15:32:58 INFO basepage.py click_element [line:89 INFO 日志信息:点击元素：('xpath', '//button[@class="btn btn-primary mt-1"]/span')]
+Mon, 31 Aug 2020 15:33:06 INFO basepage.py wait_elePresence [line:56 INFO 日志信息:等待元素('xpath', '//div[@class="alert alert-danger"]/span')存在]
+Mon, 31 Aug 2020 15:33:06 INFO basepage.py wait_elePresence [line:67 INFO 日志信息:等待结束、等待时长为：0]
+Mon, 31 Aug 2020 15:33:06 INFO basepage.py get_text [line:117 INFO 日志信息:获取元素文本：('xpath', '//div[@class="alert alert-danger"]/span')]
+Mon, 31 Aug 2020 15:33:08 INFO basepage.py wait_elePresence [line:56 INFO 日志信息:等待元素('xpath', '//a[@class="alert-link"]')存在]
+Mon, 31 Aug 2020 15:33:08 INFO basepage.py wait_elePresence [line:67 INFO 日志信息:等待结束、等待时长为：0]
+Mon, 31 Aug 2020 15:33:08 INFO basepage.py click_element [line:89 INFO 日志信息:点击元素：('xpath', '//a[@class="alert-link"]')]
+Mon, 31 Aug 2020 15:33:13 INFO basepage.py wait_eleVisible [line:30 INFO 日志信息:等待元素('xpath', '//input[@id="username"]')可见]
+Mon, 31 Aug 2020 15:33:43 ERROR basepage.py wait_eleVisible [line:42 ERROR 日志信息:等待元素可见失败！！！]
+Traceback (most recent call last):
+  File "C:\Users\haiyu.ma\PycharmProjects\lemon_class\Genomicare_WebAutomation\Common\basepage.py", line 34, in wait_eleVisible
+    WebDriverWait(self.driver, timeout, poll_frequency).until(EC.visibility_of_element_located(locator))
+  File "C:\python36\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Mon, 31 Aug 2020 15:33:43 INFO basepage.py wait_elePresence [line:56 INFO 日志信息:等待元素('xpath', '//a[@class="alert-link"]')存在]
+Mon, 31 Aug 2020 15:33:44 INFO basepage.py wait_elePresence [line:67 INFO 日志信息:等待结束、等待时长为：0]
+Mon, 31 Aug 2020 15:33:44 INFO basepage.py click_element [line:89 INFO 日志信息:点击元素：('xpath', '//a[@class="alert-link"]')]
+Mon, 31 Aug 2020 15:33:49 INFO basepage.py wait_eleVisible [line:30 INFO 日志信息:等待元素('xpath', '//input[@id="username"]')可见]
+Mon, 31 Aug 2020 15:34:19 ERROR basepage.py wait_eleVisible [line:42 ERROR 日志信息:等待元素可见失败！！！]
+Traceback (most recent call last):
+  File "C:\Users\haiyu.ma\PycharmProjects\lemon_class\Genomicare_WebAutomation\Common\basepage.py", line 34, in wait_eleVisible
+    WebDriverWait(self.driver, timeout, poll_frequency).until(EC.visibility_of_element_located(locator))
+  File "C:\python36\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Mon, 31 Aug 2020 15:34:20 INFO basepage.py wait_elePresence [line:56 INFO 日志信息:等待元素('xpath', '//a[@class="alert-link"]')存在]
+Mon, 31 Aug 2020 15:34:20 INFO basepage.py wait_elePresence [line:67 INFO 日志信息:等待结束、等待时长为：0]
+Mon, 31 Aug 2020 15:34:20 INFO basepage.py click_element [line:89 INFO 日志信息:点击元素：('xpath', '//a[@class="alert-link"]')]
+Mon, 31 Aug 2020 15:34:25 INFO test_login.py test_login_2_success [line:44 INFO 日志信息:***登录用例：正常场景：使用正确的用户名和密码登录*****]
+Mon, 31 Aug 2020 15:34:25 INFO basepage.py wait_eleVisible [line:30 INFO 日志信息:等待元素('xpath', '//input[@id="username"]')可见]
+Mon, 31 Aug 2020 15:34:25 INFO basepage.py wait_eleVisible [line:40 INFO 日志信息:登录页面_登录功能:元素('xpath', '//input[@id="username"]')已可见,等待起始时间:2020-08-31 15:34:25.884859,等待结束时间:2020-08-31 15:34:25.910859,等待时长为：0]
+Mon, 31 Aug 2020 15:34:25 INFO basepage.py input_text [line:103 INFO 日志信息:元素输入：('xpath', '//input[@id="username"]')]
+Mon, 31 Aug 2020 15:34:27 INFO basepage.py input_text [line:103 INFO 日志信息:元素输入：('xpath', '//input[@id="password"]')]
+Mon, 31 Aug 2020 15:34:28 INFO basepage.py click_element [line:89 INFO 日志信息:点击元素：('xpath', '//button[@class="btn btn-primary mt-1"]/span')]
+Mon, 31 Aug 2020 15:34:36 INFO basepage.py wait_eleVisible [line:30 INFO 日志信息:等待元素('xpath', '//span[contains(text(),"报表")]')可见]
+Mon, 31 Aug 2020 15:34:36 INFO basepage.py wait_eleVisible [line:40 INFO 日志信息:报表button:元素('xpath', '//span[contains(text(),"报表")]')已可见,等待起始时间:2020-08-31 15:34:36.206859,等待结束时间:2020-08-31 15:34:36.243859,等待时长为：0]

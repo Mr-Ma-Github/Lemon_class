@@ -38,7 +38,7 @@ class  Teacher:
 # t=Teacher()#实例   隐式的传递
 # t.cooking()
 # Teacher.coding(t)#显示的传递    不建议使用
-# # Teacher().coding()#类自己实例化
+# Teacher().coding()#类自己实例化
 
 # Teacher.coding()   #要先实例化才能调用Teacher().coding()
 # #TypeError: coding() missing 1 required positional argument: 'self'
@@ -46,6 +46,8 @@ class  Teacher:
 # 类方法   @classmethod
 # Teacher.swimming()
 # t.swimming()
+# 类方法主要用来做备用的构造函数
+
 # 类方法和静态方法可以直接  类名.方法调用,也可以通过实例调用
 # 静态方法：@staticmethod
 # Teacher.sing()
@@ -67,8 +69,8 @@ class  Teacher:
 # t2=Teacher("朵朵")
 # t2.teacher_info()
 
-t3=Teacher("多多").teacher_info_2("糖醋排骨","红烧鱼")
-
+# t3=Teacher("多多").teacher_info_2("糖醋排骨","红烧鱼")
+#
 
 
 

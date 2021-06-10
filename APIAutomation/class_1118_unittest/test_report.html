@@ -219,9 +219,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>python单元测试报告</h1>
-<p class='attribute'><strong>Start Time:</strong> 2019-11-22 18:45:53</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:00.001000</p>
-<p class='attribute'><strong>Status:</strong> Pass 2 Failure 1</p>
+<p class='attribute'><strong>Start Time:</strong> 2020-09-07 23:27:42</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:00.283000</p>
+<p class='attribute'><strong>Status:</strong> Pass 6 Failure 2</p>
 
 <p class='description'>这是一份测试报告</p>
 </div>
@@ -263,7 +263,7 @@ function showOutput(id, name) {
 </tr>
 
 <tr class='failClass'>
-    <td>class_1118_unittest.class_01.TestMathMethod</td>
+    <td>class_1118_unittest.test_class_01.TestMathMethod</td>
     <td>3</td>
     <td>2</td>
     <td>1</td>
@@ -286,9 +286,9 @@ function showOutput(id, name) {
         </div>
         <pre>
         
-pt1.1: 开始执行用例
+pt1.1: **********开始执行用例**********
 -1+-2的值： -3
-用例执行结束
+*********用例执行结束**********
 
 
         </pre>
@@ -313,9 +313,9 @@ pt1.1: 开始执行用例
         </div>
         <pre>
         
-pt1.2: 开始执行用例
+pt1.2: **********开始执行用例**********
 1+2的值： 3
-用例执行结束
+*********用例执行结束**********
 
 
         </pre>
@@ -340,16 +340,154 @@ pt1.2: 开始执行用例
         </div>
         <pre>
         
-ft1.3: 开始执行用例
+ft1.3: **********开始执行用例**********
 0+0的值： 0
-出错了，断言错误是1 != 0 : 两个0相加出错了
-用例执行结束
+断言错误是1 != 0 : 两个0相加出错了
+*********用例执行结束**********
 Traceback (most recent call last):
-  File "C:\Users\haiyu.ma\PycharmProjects\lemon_class\class_1118_unittest\class_01.py", line 39, in test_add_two_zero
-    raise e
-  File "C:\Users\haiyu.ma\PycharmProjects\lemon_class\class_1118_unittest\class_01.py", line 36, in test_add_two_zero
-    self.assertEquals(1,res,"两个0相加出错了")#断言里面msg在用例执行失败的时候才会显示
+  File "C:\Users\haiyu.ma\PycharmProjects\lemon_class\APIAutomation\class_1118_unittest\test_class_01.py", line 67, in test_add_two_zero
+    self.assertEqual(1, res, "两个0相加出错了")  # 断言里面msg在用例执行失败的时候才会显示
 AssertionError: 1 != 0 : 两个0相加出错了
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\haiyu.ma\PycharmProjects\lemon_class\APIAutomation\class_1118_unittest\test_class_01.py", line 70, in test_add_two_zero
+    raise AssertionError
+AssertionError
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='passClass'>
+    <td>class_1118_unittest.test_class_01.TestMulti</td>
+    <td>3</td>
+    <td>3</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c2',3)">Detail</a></td>
+</tr>
+
+<tr id='pt2.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_multi_two_negative</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2.1')" >
+        pass</a>
+
+    <div id='div_pt2.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt2.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt2.1: -1*-2的值： 2
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt2.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_multi_two_positive</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2.2')" >
+        pass</a>
+
+    <div id='div_pt2.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt2.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt2.2: 1*2的值： 2
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt2.3' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_multi_two_zero</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2.3')" >
+        pass</a>
+
+    <div id='div_pt2.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt2.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt2.3: 0*0的值： 0
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='failClass'>
+    <td>class_1118_unittest.test_login_20200904.TestLogin</td>
+    <td>2</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c3',2)">Detail</a></td>
+</tr>
+
+<tr id='pt3.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_login_2_fail</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='ft3.2' class='none'>
+    <td class='failCase'><div class='testcase'>test_login_2_success</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft3.2')" >
+        fail</a>
+
+    <div id='div_ft3.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft3.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft3.2: 断言失败
+Traceback (most recent call last):
+  File "C:\Users\haiyu.ma\PycharmProjects\lemon_class\APIAutomation\class_1118_unittest\test_login_20200904.py", line 24, in test_login_2_success
+    raise e
+  File "C:\Users\haiyu.ma\PycharmProjects\lemon_class\APIAutomation\class_1118_unittest\test_login_20200904.py", line 20, in test_login_2_success
+    self.assertEqual(self.data["excepted"], res["msg"])
+AssertionError: '登录成功1' != '登录成功'
+- 登录成功1
+?     -
++ 登录成功
+
 
 
         </pre>
@@ -361,9 +499,9 @@ AssertionError: 1 != 0 : 两个0相加出错了
 
 <tr id='total_row'>
     <td>Total</td>
-    <td>3</td>
-    <td class="text text-success">2</td>
-    <td class="text text-danger">1</td>
+    <td>8</td>
+    <td class="text text-success">6</td>
+    <td class="text text-danger">2</td>
     <td class="text text-warning">0</td>
     <td>&nbsp;</td>
 </tr>
@@ -381,14 +519,14 @@ var data = [
 		labelFontSize: '16'
 	},
 	{
-		value : 1,
+		value : 2,
 		color : "#faebcc",
 		label: "Fail",
 		labelColor: 'white',
 		labelFontSize: '16'
 	},
 	{
-		value : 2,
+		value : 6,
 		color : "#d6e9c6",
 		label : "Pass",
 		labelColor: 'white',

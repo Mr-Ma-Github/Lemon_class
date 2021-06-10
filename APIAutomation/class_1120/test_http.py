@@ -17,14 +17,15 @@ from class_1120.get_data import GetData
 class TestHttpRequest(unittest.TestCase):
     def setUp(self):
         print("开始进行测试了")
+
     # 超继承
-    def __init__(self,methodNome,method,url,data,excepted):#通过初始化函数来传参数
-        super(TestHttpRequest, self).__init__(methodNome)#父类的方法保留
+    def __init__(self, methodNome, method, url, data, excepted):  # 通过初始化函数来传参数
+        super(TestHttpRequest, self).__init__(methodNome)  # 父类的方法保留
         # super(子类名.self).__init__(父类与子类函数重名方法的参数)
-        self.url=url
-        self.data=data
-        self.method=method
-        self.excepted=excepted
+        self.url = url
+        self.data = data
+        self.method = method
+        self.excepted = excepted
 
     def test_api(self):
         res = HttpRequest().http_request(self.url, self.data,self.method,getattr(GetData,"cookie"))

@@ -17,106 +17,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="class_object_02.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/class_1106_class_object/class_object_02.py">
+      <file leaf-file-name="do_excel_learn.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/class_1120/do_excel_learn/do_excel_learn.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="class_object_03.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/class_1106_class_object/class_object_03.py">
+      <file leaf-file-name="do_ddt_learn.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/class_1120/do_ddt_learn/do_ddt_learn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="550">
+              <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logging_learn.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/API_AUTO/learn/logging_learn.py">
+      <file leaf-file-name="do_excel_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/class_1120/do_excel_learn/do_excel_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="1150">
+              <caret line="46" column="49" lean-forward="false" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="runner.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/API_AUTO/runner.py">
+      <file leaf-file-name="dsf.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/class_1120/do_excel_learn/dsf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+            <state relative-caret-position="471">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
-                <element signature="e#58#73#0" expanded="true" />
+                <element signature="e#161#170#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/API_AUTO/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_http.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/class_http_demo/test_http.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="689">
-              <caret line="144" column="49" lean-forward="false" selection-start-line="144" selection-start-column="49" selection-end-line="144" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="three_method___test_http.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/class_http_demo/three_method___test_http.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="get_data.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/API_AUTO/tools/get_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-              <folding>
-                <element signature="e#59#98#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="my_log.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/API_AUTO/tools/my_log.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="4" column="48" lean-forward="false" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="project_path.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/API_AUTO/tools/project_path.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -136,6 +74,11 @@
       <find>assertEquals</find>
       <find>assertEqual</find>
       <find>Session</find>
+      <find>rever</find>
+      <find>items</find>
+      <find>html</find>
+      <find>isdigit</find>
+      <find>max</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -144,65 +87,65 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/class_1118_unittest/class_02.py" />
-        <option value="$PROJECT_DIR$/class_1120/http_request.py" />
-        <option value="$PROJECT_DIR$/runner.py" />
-        <option value="$PROJECT_DIR$/API_AUTO/tools_old/test_http.py" />
-        <option value="$PROJECT_DIR$/API_AUTO/tools_old/http_request.py" />
-        <option value="$PROJECT_DIR$/API_AUTO/tools/runner.py" />
-        <option value="$PROJECT_DIR$/API_AUTO/tools/get_cookie.py" />
-        <option value="$PROJECT_DIR$/API_AUTO/learn/http_request.py" />
-        <option value="$PROJECT_DIR$/API_AUTO/learn/pandas_learn.py" />
-        <option value="$PROJECT_DIR$/class_1120/test_suite.py" />
-        <option value="$PROJECT_DIR$/class_http_demo/test_http.py" />
-        <option value="$PROJECT_DIR$/class_http_demo/test_suite.py" />
-        <option value="$PROJECT_DIR$/API_AUTO/conf/case_config.py" />
-        <option value="$PROJECT_DIR$/API_AUTO/tools/case_config.py" />
-        <option value="$PROJECT_DIR$/API_AUTO/tools/test_recharge.py" />
-        <option value="$PROJECT_DIR$/API_AUTO/tools/test_login.py" />
-        <option value="$PROJECT_DIR$/API_AUTO/runner_two.py" />
-        <option value="$PROJECT_DIR$/class_1026/basic.py" />
-        <option value="$PROJECT_DIR$/class_1106_class_object/class_object_02.py" />
-        <option value="$PROJECT_DIR$/API_AUTO/learn/log_learn.py" />
-        <option value="$PROJECT_DIR$/API_AUTO/learn/logging_learn.py" />
-        <option value="$PROJECT_DIR$/API_AUTO/learn/python11.txt" />
-        <option value="$PROJECT_DIR$/class_1124/new.py" />
-        <option value="$PROJECT_DIR$/class_1031/function_01.py" />
+        <option value="$PROJECT_DIR$/class_1106_class_object/class_object_03.py" />
+        <option value="$PROJECT_DIR$/class_1106_class_object/test.py" />
+        <option value="$PROJECT_DIR$/class_1120/do_excel2.py" />
+        <option value="$PROJECT_DIR$/class_1106_class_object/class_object_04.py" />
+        <option value="$PROJECT_DIR$/class_1113_request/demo_api.py" />
+        <option value="$PROJECT_DIR$/class_1113_request/http_request.py" />
+        <option value="$PROJECT_DIR$/class_1118_unittest/test_class_01.py" />
+        <option value="$PROJECT_DIR$/class_1118_unittest/test_class_mathod.py" />
+        <option value="$PROJECT_DIR$/class_1118_unittest/test_login_class20200904.py" />
+        <option value="$PROJECT_DIR$/class_1113_request/API_request.py" />
+        <option value="$PROJECT_DIR$/class_1118_unittest/test_login_class.py" />
+        <option value="$PROJECT_DIR$/class_1118_unittest/unittest框架.py" />
+        <option value="$PROJECT_DIR$/GC/tools/do_Regular.py" />
         <option value="$PROJECT_DIR$/API_AUTO/learn/do_mysql_learn.py" />
-        <option value="$PROJECT_DIR$/API_AUTO/tools/do_mysql.py" />
-        <option value="$PROJECT_DIR$/API_AUTO/python11.txt" />
-        <option value="$PROJECT_DIR$/API_AUTO/test_result/log/case_log.txt" />
-        <option value="$PROJECT_DIR$/API_AUTO/tools/python11.txt" />
-        <option value="$PROJECT_DIR$/API_AUTO/case_log.txt" />
-        <option value="$PROJECT_DIR$/API_AUTO/tools/project_path.py" />
-        <option value="$PROJECT_DIR$/API_AUTO/tools/my_log.py" />
-        <option value="$PROJECT_DIR$/API_AUTO/tools/http_request.py" />
-        <option value="$PROJECT_DIR$/API_AUTO/test_result/log/test_log.txt" />
-        <option value="$PROJECT_DIR$/API_AUTO/tools/send_email.py" />
-        <option value="$PROJECT_DIR$/class_1026/list_dict_tuple.py" />
-        <option value="$PROJECT_DIR$/API_AUTO/tools/get_data.py" />
-        <option value="$PROJECT_DIR$/API_AUTO/tools/do_excel_2.py" />
-        <option value="$PROJECT_DIR$/API_AUTO/tools/test_http_request.py" />
-        <option value="$PROJECT_DIR$/API_AUTO/tools/do_excel_old.py" />
-        <option value="$PROJECT_DIR$/API_AUTO/conf/case.config" />
-        <option value="$PROJECT_DIR$/API_AUTO/tools/do_excel.py" />
-        <option value="$PROJECT_DIR$/API_AUTO/tools/do_Regular.py" />
-        <option value="$PROJECT_DIR$/summary_num1/0512.py" />
-        <option value="$PROJECT_DIR$/class_1031/class_def.py" />
-        <option value="$PROJECT_DIR$/class_1120/ddt_unittest_excel/ddt_unittest_excel_add.py" />
-        <option value="$PROJECT_DIR$/class_1120/ddt_unittest_excel/ddt_unittest_excel.py" />
-        <option value="$PROJECT_DIR$/class_1120/read_config.py" />
-        <option value="$PROJECT_DIR$/class_1120/do_excel.py" />
+        <option value="$PROJECT_DIR$/GC/tools/do_mysql.py" />
+        <option value="$PROJECT_DIR$/GC/tools/my_log.py" />
+        <option value="$PROJECT_DIR$/class_1118_unittest/login_request.py" />
+        <option value="$PROJECT_DIR$/GC/tools/case_config.py" />
+        <option value="$PROJECT_DIR$/GC/tools/send_email_zhu.py" />
+        <option value="$PROJECT_DIR$/GC/tools/send_email.py" />
+        <option value="$PROJECT_DIR$/GC/conf/case.config" />
+        <option value="$PROJECT_DIR$/GC/tools/test_http_request.py" />
+        <option value="$PROJECT_DIR$/GC/tools/do_excel.py" />
+        <option value="$PROJECT_DIR$/GC/tools/get_data.py" />
+        <option value="$PROJECT_DIR$/GC/tools/http_request.py" />
+        <option value="$PROJECT_DIR$/GC/tools/test_login.py" />
+        <option value="$PROJECT_DIR$/GC/tools/send_email2.py" />
+        <option value="$PROJECT_DIR$/GC/test_result/log/test_log.txt" />
+        <option value="$PROJECT_DIR$/GC/tools/project_path.py" />
+        <option value="$PROJECT_DIR$/GC/runner.py" />
+        <option value="$PROJECT_DIR$/GC_API/tools/send_email2.py" />
+        <option value="$PROJECT_DIR$/GC_API/tools/send_email.py" />
+        <option value="$PROJECT_DIR$/GC_API/tools/send_email3.py" />
+        <option value="$PROJECT_DIR$/class_1106_class_object/class_object.py" />
+        <option value="$PROJECT_DIR$/GC_API/conf/case.config" />
+        <option value="$PROJECT_DIR$/GC_API/tools/send_email4.py" />
+        <option value="$PROJECT_DIR$/GC_API/tools/send_email6.py" />
+        <option value="$PROJECT_DIR$/API_AUTO/tools/send_email/send_email3.py" />
+        <option value="$PROJECT_DIR$/API_AUTO/tools/send_email/send_email4.py" />
+        <option value="$PROJECT_DIR$/summary/0512.py" />
+        <option value="$PROJECT_DIR$/class_1118_unittest/fsdf.py" />
+        <option value="$PROJECT_DIR$/GC_API/tools/sd.py" />
+        <option value="$PROJECT_DIR$/class_1118_unittest/basic.py" />
+        <option value="$PROJECT_DIR$/class_1118_unittest/case_load.py" />
+        <option value="$PROJECT_DIR$/GC_API/tools/test_login.py" />
+        <option value="$PROJECT_DIR$/GC_API/runner.py" />
+        <option value="$PROJECT_DIR$/GC_API/tools/project_path.py" />
         <option value="$PROJECT_DIR$/class_1120/do_ddt_learn/do_ddt_learn.py" />
-        <option value="$PROJECT_DIR$/API_AUTO/runner.py" />
+        <option value="$PROJECT_DIR$/class_1120/do_excel_learn/do_excel_learn.py" />
+        <option value="$PROJECT_DIR$/class_1120/do_excel_learn/do_excel_test.py" />
+        <option value="$PROJECT_DIR$/class_1120/do_excel_learn/dsf.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-16" />
-    <option name="y" value="30" />
-    <option name="width" value="1364" />
-    <option name="height" value="711" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -244,44 +187,27 @@
           <expand>
             <path>
               <item name="lemon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="APIAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="APIAutomation2021" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lemon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="APIAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="APIAutomation2021" type="462c0819:PsiDirectoryNode" />
               <item name="API_AUTO" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lemon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="APIAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="API_AUTO" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="APIAutomation2021" type="462c0819:PsiDirectoryNode" />
+              <item name="class_1102" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lemon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="APIAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="API_AUTO" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="APIAutomation2021" type="462c0819:PsiDirectoryNode" />
+              <item name="class_1118_unittest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lemon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="APIAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="class_1120" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lemon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="APIAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="class_http_demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lemon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="APIAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="py24_api_v3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lemon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="APIAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="summary_num1" type="462c0819:PsiDirectoryNode" />
+              <item name="APIAutomation2021" type="462c0819:PsiDirectoryNode" />
+              <item name="summary" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -302,25 +228,26 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Python" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="SearchEverywhereHistoryKey" value="解决&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\haiyu.ma\PycharmProjects\lemon_class\APIAutomation" />
-      <recent name="C:\Users\haiyu.ma\PycharmProjects\lemon_class\APIAutomation\API_AUTO" />
-      <recent name="C:\Users\haiyu.ma\PycharmProjects\lemon_class\APIAutomation\class_1120\ddt_unittest_excel" />
-      <recent name="C:\Users\haiyu.ma\PycharmProjects\lemon_class\API_AUTO\test_data" />
-      <recent name="C:\Users\haiyu.ma\PycharmProjects\lemon_class\API_AUTO\tools" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\haiyu.ma\PycharmProjects\lemon_class\API_AUTO\test_result\log" />
-      <recent name="C:\Users\haiyu.ma\PycharmProjects\lemon_class\API_AUTO\test_data" />
-      <recent name="C:\Users\haiyu.ma\PycharmProjects\lemon_class" />
-      <recent name="C:\Users\haiyu.ma\PycharmProjects\lemon_class\API_AUTO\tools" />
-      <recent name="C:\Users\haiyu.ma\PycharmProjects\lemon_class\API_AUTO" />
+      <recent name="C:\Users\haiyu.ma\PycharmProjects\lemon_class\APIAutomation2021\API_AUTO\tools\send_email" />
+      <recent name="C:\Users\haiyu.ma\PycharmProjects\lemon_class\APIAutomation2021\API_AUTO\tools" />
+      <recent name="C:\Users\haiyu.ma\PycharmProjects\lemon_class\APIAutomation\logging_learn" />
+      <recent name="C:\Users\haiyu.ma\PycharmProjects\lemon_class\APIAutomation\class_1120\do_ddt_learn\libs" />
+      <recent name="C:\Users\haiyu.ma\PycharmProjects\lemon_class\APIAutomation\class_1026" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\haiyu.ma\PycharmProjects\lemon_class\APIAutomation2021\GC_API\tools" />
+      <recent name="C:\Users\haiyu.ma\PycharmProjects\lemon_class\APIAutomation2021\GC\tools" />
+      <recent name="C:\Users\haiyu.ma\PycharmProjects\lemon_class\APIAutomation2021\GC" />
+      <recent name="C:\Users\haiyu.ma\PycharmProjects\lemon_class\APIAutomation\logging_learn" />
+      <recent name="C:\Users\haiyu.ma\PycharmProjects\lemon_class\APIAutomation\class_1120\do_ddt_learn\libs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -335,7 +262,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.three_method___test_http">
+  <component name="RunManager" selected="Python.dsf">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -344,101 +271,65 @@
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="untitled1" />
-      <option name="SCRIPT_NAME" value="" />
+      <module name="lemon" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GC/tools/test_login.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="basic" type="PythonConfigurationType" factoryName="Python" singleton="true">
+    <configuration name="do_excel_learn" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/class_1120/do_excel_learn" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="lemon" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CLASS/basic.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/class_1120/do_excel_learn/do_excel_learn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="do_excel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="do_excel_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/class_1120" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/class_1120/do_excel_learn" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="lemon" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/class_1120/do_excel.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/class_1120/do_excel_learn/do_excel_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="read_config" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dsf" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/class_1120" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/class_1120/do_excel_learn" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="lemon" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/class_1120/read_config.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="runner" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API_AUTO" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="lemon" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/API_AUTO/runner.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="three_method___test_http" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/class_http_demo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="lemon" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/class_http_demo/three_method___test_http.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/class_1120/do_excel_learn/dsf.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -455,18 +346,32 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="untitled1" />
     </configuration>
-    <configuration name="Unittests in ddt_unittest_excel.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for do_ddt_learn.TestMath.test_print_data" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/class_1120/ddt_unittest_excel" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/class_1120/do_ddt_learn" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="lemon" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/class_1120/ddt_unittest_excel/ddt_unittest_excel.py&quot;" />
+      <option name="_new_target" value="&quot;do_ddt_learn.TestMath.test_print_data&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests in do_ddt_learn.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/class_1120/do_ddt_learn" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lemon" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/class_1120/do_ddt_learn/do_ddt_learn.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -545,21 +450,20 @@
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="Python.basic" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in ddt_unittest_excel.py" />
-      <item index="2" class="java.lang.String" itemvalue="Python.do_excel" />
-      <item index="3" class="java.lang.String" itemvalue="Python.read_config" />
-      <item index="4" class="java.lang.String" itemvalue="Python.runner" />
-      <item index="5" class="java.lang.String" itemvalue="Python.three_method___test_http" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.do_excel_learn" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in do_ddt_learn.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for do_ddt_learn.TestMath.test_print_data" />
+      <item index="3" class="java.lang.String" itemvalue="Python.do_excel_test" />
+      <item index="4" class="java.lang.String" itemvalue="Python.dsf" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.three_method___test_http" />
-        <item index="1" class="java.lang.String" itemvalue="Python.runner" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in ddt_unittest_excel.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python.read_config" />
-        <item index="4" class="java.lang.String" itemvalue="Python.do_excel" />
+        <item index="0" class="java.lang.String" itemvalue="Python.dsf" />
+        <item index="1" class="java.lang.String" itemvalue="Python.do_excel_test" />
+        <item index="2" class="java.lang.String" itemvalue="Python.do_excel_learn" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in do_ddt_learn.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for do_ddt_learn.TestMath.test_print_data" />
       </list>
     </recent_temporary>
   </component>
@@ -580,82 +484,67 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_ddt_unittest_excel_add_py - 2020.05.29 at 10h 10m 08s.xml">
-      <configuration name="Unittests in ddt_unittest_excel_add.py" configurationId="tests" />
+    <history-entry file="Unittests_for_do_ddt_learn_TestMath_test_print_data - 2021.04.27 at 23h 36m 22s.xml">
+      <configuration name="Unittests for do_ddt_learn.TestMath.test_print_data" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_ddt_unittest_excel_add_py - 2020.05.29 at 10h 11m 56s.xml">
-      <configuration name="Unittests in ddt_unittest_excel_add.py" configurationId="tests" />
+    <history-entry file="Unittests_for_do_ddt_learn_TestMath_test_print_data - 2021.04.27 at 23h 40m 33s.xml">
+      <configuration name="Unittests for do_ddt_learn.TestMath.test_print_data" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_ddt_unittest_excel_py - 2020.05.29 at 10h 14m 43s.xml">
-      <configuration name="Unittests in ddt_unittest_excel.py" configurationId="tests" />
+    <history-entry file="Unittests_in_do_ddt_learn_py - 2021.04.27 at 23h 34m 13s.xml">
+      <configuration name="Unittests in do_ddt_learn.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_ddt_unittest_excel_py - 2020.05.29 at 10h 15m 52s.xml">
-      <configuration name="Unittests in ddt_unittest_excel.py" configurationId="tests" />
+    <history-entry file="Unittests_in_do_ddt_learn_py - 2021.04.27 at 23h 34m 53s.xml">
+      <configuration name="Unittests in do_ddt_learn.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_ddt_unittest_excel_py - 2020.05.29 at 10h 16m 46s.xml">
-      <configuration name="Unittests in ddt_unittest_excel.py" configurationId="tests" />
+    <history-entry file="Unittests_in_do_ddt_learn_py - 2021.04.27 at 23h 41m 28s.xml">
+      <configuration name="Unittests in do_ddt_learn.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_ddt_unittest_excel_py - 2020.05.29 at 10h 17m 17s.xml">
-      <configuration name="Unittests in ddt_unittest_excel.py" configurationId="tests" />
+    <history-entry file="Unittests_in_do_ddt_learn_py - 2021.04.27 at 23h 41m 50s.xml">
+      <configuration name="Unittests in do_ddt_learn.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_ddt_unittest_excel_py - 2020.05.29 at 10h 22m 26s.xml">
-      <configuration name="Unittests in ddt_unittest_excel.py" configurationId="tests" />
+    <history-entry file="Unittests_in_do_ddt_learn_py - 2021.04.27 at 23h 43m 03s.xml">
+      <configuration name="Unittests in do_ddt_learn.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_ddt_unittest_excel_py - 2020.05.29 at 10h 22m 51s.xml">
-      <configuration name="Unittests in ddt_unittest_excel.py" configurationId="tests" />
+    <history-entry file="Unittests_in_do_ddt_learn_py - 2021.04.27 at 23h 43m 24s.xml">
+      <configuration name="Unittests in do_ddt_learn.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_ddt_unittest_excel_py - 2020.05.29 at 10h 44m 44s.xml">
-      <configuration name="Unittests in ddt_unittest_excel.py" configurationId="tests" />
+    <history-entry file="Unittests_in_do_ddt_learn_py - 2021.04.27 at 23h 44m 04s.xml">
+      <configuration name="Unittests in do_ddt_learn.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_ddt_unittest_excel_py - 2020.05.29 at 10h 45m 59s.xml">
-      <configuration name="Unittests in ddt_unittest_excel.py" configurationId="tests" />
+    <history-entry file="Unittests_in_do_ddt_learn_py - 2021.04.27 at 23h 44m 15s.xml">
+      <configuration name="Unittests in do_ddt_learn.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-16" y="30" width="1364" height="711" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21719457" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22470239" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44535074" sideWeight="0.50595236" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27979276" sideWeight="0.4940476" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3980424" sideWeight="0.5119048" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15660685" sideWeight="0.48809522" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3267974" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24968314" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931036" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3267974" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39967373" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32463294" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3213703" sideWeight="0.4940476" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44535074" sideWeight="0.50595236" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35067114" sideWeight="0.4940476" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16742082" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32463294" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24968314" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50063694" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Lemon_class_mine" />
+    </ignored-roots>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -666,350 +555,302 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="55" />
+      <option name="time" value="118" />
     </breakpoint-manager>
     <watches-manager />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>type(name)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>name</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/class_1113_request/API_Http.py">
+    <entry file="file://$PROJECT_DIR$/class_1106_class_object/class_object_03.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/summary_num1/0512.py">
+    <entry file="file://$PROJECT_DIR$/class_1106_class_object/class_object_04.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/python36/Lib/unittest/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1197">
+        <state relative-caret-position="-225">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class_1102/__init__.py">
+    <entry file="file://C:/python36/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="137">
+          <caret line="310" column="0" lean-forward="false" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class_1102/class_01.py">
+    <entry file="file://$PROJECT_DIR$/GC_API/tools/do_mysql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-450">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class_1102/class_02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1557">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/python36/Lib/site-packages/ddt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-171">
-          <caret line="255" column="4" lean-forward="false" selection-start-line="255" selection-start-column="4" selection-end-line="255" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class_1031/function_02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class_1031/function_01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="41" column="19" lean-forward="false" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class_1120/test_http.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class_1120/do_config/config_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class_1120/case.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/python36/Lib/configparser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9">
-          <caret line="1183" column="6" lean-forward="false" selection-start-line="1183" selection-start-column="6" selection-end-line="1183" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class_1120/do_config/case.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class_1120/ddt_unittest_excel/ddt_unittest_excel_add.py" />
-    <entry file="file://$PROJECT_DIR$/class_1120/read_config.py">
+    <entry file="file://$PROJECT_DIR$/GC_API/tools/case_config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class_1120/do_excel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class_1120/ddt_unittest_excel/ddt_unittest_excel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="45" column="14" lean-forward="false" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class_1031/class_def.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class_1120/http_request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/class_1106_class_object/class_object.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="23" column="15" lean-forward="false" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+        <state relative-caret-position="110">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class_1106_class_object/class_object_02.py">
+    <entry file="file://C:/python36/Lib/email/message.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="405" column="42" lean-forward="true" selection-start-line="405" selection-start-column="42" selection-end-line="405" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python36/Lib/smtplib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1133">
+          <caret line="791" column="26" lean-forward="true" selection-start-line="791" selection-start-column="26" selection-end-line="791" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python36/Lib/email/mime/multipart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GC_API/conf/case.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API_AUTO/tools/send_email/send_email3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1475">
+          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API_AUTO/tools/send_email/send_email4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="47" column="19" lean-forward="true" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GC_API/tools/send_email6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class_1120/do_config/config_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class_1118_unittest/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/API_AUTO/test_result/log/test_log.txt">
+    <entry file="file://$PROJECT_DIR$/GC_API/test_result/html_report/report20210416-1029.html" />
+    <entry file="file://$PROJECT_DIR$/GC_API/test_result/html_report/report20210416-1032.html" />
+    <entry file="file://$PROJECT_DIR$/GC_API/test_result/log/test_log.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="320" column="48" lean-forward="false" selection-start-line="320" selection-start-column="48" selection-end-line="320" selection-end-column="48" />
+        <state relative-caret-position="-4350">
+          <caret line="5" column="59" lean-forward="false" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class_1124/new.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class_1106_class_object/class_object_03.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API_AUTO/learn/logging_learn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API_AUTO/tools/do_excel_old.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1203">
-          <caret line="98" column="46" lean-forward="true" selection-start-line="98" selection-start-column="46" selection-end-line="98" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API_AUTO/tools/project_path.py">
+    <entry file="file://$PROJECT_DIR$/GC_API/test_result/html_report/report20210416-1100.html" />
+    <entry file="file://$PROJECT_DIR$/class_1118_unittest/test_class_mathod.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
+          <caret line="39" column="43" lean-forward="true" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/python36/Lib/site-packages/HTMLTestRunner.py">
+    <entry file="file://$PROJECT_DIR$/class_1118_unittest/case_load.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="696" column="8" lean-forward="false" selection-start-line="696" selection-start-column="8" selection-end-line="696" selection-end-column="8" />
+        <state relative-caret-position="176">
+          <caret line="59" column="43" lean-forward="true" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/API_AUTO/tools/test_login.py">
+    <entry file="file://$PROJECT_DIR$/GC_API/test_result/html_report/report20210416-1121.html" />
+    <entry file="file://$PROJECT_DIR$/GC_API/tools/sd.py" />
+    <entry file="file://$PROJECT_DIR$/class_1118_unittest/fsdf.py" />
+    <entry file="file://$PROJECT_DIR$/GC_API/test_result/html_report/report20210416-1401.html" />
+    <entry file="file://$PROJECT_DIR$/GC_API/tools/test_login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="10" column="50" lean-forward="true" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+        <state relative-caret-position="275">
+          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/API_AUTO/tools/test_recharge.py">
+    <entry file="file://$PROJECT_DIR$/class_1118_unittest/basic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="510">
+          <caret line="46" column="23" lean-forward="false" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/API_AUTO/tools/my_log.py">
+    <entry file="file://$PROJECT_DIR$/GC_API/tools/project_path.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="48" lean-forward="false" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-          <folding />
+        <state relative-caret-position="284">
+          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/__init__.py">
+    <entry file="file://$PROJECT_DIR$/GC_API/runner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API_AUTO/runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-          <folding>
-            <element signature="e#58#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API_AUTO/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API_AUTO/conf/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API_AUTO/conf/case.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        <state relative-caret-position="446">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/API_AUTO/tools/do_excel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API_AUTO/tools/do_mysql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-897">
+        <state relative-caret-position="-900">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/API_AUTO/tools/do_Regular.py">
+    <entry file="file://$PROJECT_DIR$/API_AUTO/tools/do_excel_old.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="-2475">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/API_AUTO/tools/http_request.py">
+    <entry file="file://$PROJECT_DIR$/class_1120/ddt_unittest_excel/ddt_unittest_excel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        <state relative-caret-position="-816">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/API_AUTO/tools/test_http_request.py">
+    <entry file="file://$PROJECT_DIR$/class_1120/do_excel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="51" column="34" lean-forward="false" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
+        <state relative-caret-position="-575">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/API_AUTO/learn/session_learn.py">
+    <entry file="file://$PROJECT_DIR$/class_1120/do_excel2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
+          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class_1120/do_excel3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="40" column="35" lean-forward="true" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GC_API/tools/do_excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-900">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/API_AUTO/tools/get_data.py">
+    <entry file="file://$PROJECT_DIR$/class_1118_unittest/test_login_class.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-          <folding>
-            <element signature="e#59#98#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="350">
+          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class_1120/get_data.py">
+    <entry file="file://C:/python36/Lib/traceback.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-          <folding />
+        <state relative-caret-position="87">
+          <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python36/Lib/unittest/loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="158" column="0" lean-forward="false" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python36/Lib/site-packages/openpyxl/reader/excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5982">
+          <caret line="284" column="4" lean-forward="false" selection-start-line="284" selection-start-column="4" selection-end-line="284" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/1857010712/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-644">
+          <caret line="5726" column="6" lean-forward="false" selection-start-line="5726" selection-start-column="6" selection-end-line="5726" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python36/Lib/site-packages/openpyxl/cell/cell.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="233" column="0" lean-forward="false" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/class_1120/do_ddt_learn/do_ddt_learn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        <state relative-caret-position="550">
+          <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class_http_demo/http_request.py">
+    <entry file="file://$PROJECT_DIR$/class_1120/do_excel_learn/do_excel_learn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        <state relative-caret-position="0">
+          <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/API_AUTO/__init__.py">
+    <entry file="file://$PROJECT_DIR$/class_1120/do_excel_learn/do_excel_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="46" column="49" lean-forward="false" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class_1102/python_math.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1017,27 +858,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class_http_demo/get_data.py">
+    <entry file="file://$PROJECT_DIR$/class_1026/basic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-3600">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class_http_demo/test_http.py">
+    <entry file="file://$PROJECT_DIR$/summary/0512.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="144" column="49" lean-forward="false" selection-start-line="144" selection-start-column="49" selection-end-line="144" selection-end-column="49" />
+        <state relative-caret-position="775">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class_http_demo/three_method___test_http.py">
+    <entry file="file://$PROJECT_DIR$/logging_learn_dir/logging_learn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        <state relative-caret-position="-1415">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class_1124/new.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-154">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class_1120/do_excel_learn/dsf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="e#161#170#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

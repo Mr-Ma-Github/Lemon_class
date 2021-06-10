@@ -16,7 +16,7 @@ class TestHttpRequest(unittest.TestCase):
 
     @data(*test_data)
     def test_http(self,item):
-        res=HttpRequest().http_request(item["url"],item["data"],item["method"],getattr(GetData,"Cookie"))
+        res=HttpRequest().http_request(item["url"],item["data.txt"],item["method"],getattr(GetData,"Cookie"))
         if res.cookies:
             setattr(GetData,"Cookie",res.cookies)
         try:  # 抓取错误  异常处理

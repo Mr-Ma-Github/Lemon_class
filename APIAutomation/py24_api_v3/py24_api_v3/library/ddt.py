@@ -25,7 +25,7 @@ __version__ = '1.2.1'
 # They are added to the decorated test method and processed later
 # by the `ddt` class decorator.
 
-DATA_ATTR = '%values'      # store the data the test must run with
+DATA_ATTR = '%values'      # store the data.txt the test must run with
 FILE_ATTR = '%file_path'   # store the path to JSON file
 UNPACK_ATTR = '%unpack'    # remember that we have to unpack values
 index_len = 5              # default max length of case index
@@ -87,7 +87,7 @@ def file_data(value):
 
     ``value`` should be a path relative to the directory of the file
     containing the decorated ``unittest.TestCase``. The file
-    should contain JSON encoded data, that can either be a list or a
+    should contain JSON encoded data.txt, that can either be a list or a
     dict.
 
     In case of a list, each value in the list will correspond to one
@@ -95,7 +95,7 @@ def file_data(value):
     name.
 
     In case of a dict, keys will be used as suffixes to the name of the
-    test case, and values will be fed as test data.
+    test case, and values will be fed as test data.txt.
 
     """
     def wrapper(func):
@@ -137,7 +137,7 @@ def mk_test_name(name, value, index=0):
 
 def feed_data(func, new_name, test_data_docstring, *args, **kwargs):
     """
-    This internal method decorator feeds the test data item to the test.
+    This internal method decorator feeds the test data.txt item to the test.
 
     """
     @wraps(func)
@@ -210,7 +210,7 @@ def process_file_data(cls, name, func, file_attr):
         return
 
     with codecs.open(data_file_path, 'r', 'utf-8') as f:
-        # Load the data from YAML or JSON
+        # Load the data.txt from YAML or JSON
         if _is_yaml_file:
             data = yaml.safe_load(f)
         else:
@@ -221,7 +221,7 @@ def process_file_data(cls, name, func, file_attr):
 
 def _add_tests_from_data(cls, name, func, data):
     """
-    Add tests from data loaded from the data file into the class
+    Add tests from data.txt loaded from the data.txt file into the class
     """
     for i, elem in enumerate(data):
         if isinstance(data, dict):
@@ -258,23 +258,23 @@ def ddt(cls):
     Class decorator for subclasses of ``unittest.TestCase``.
 
     Apply this decorator to the test case class, and then
-    decorate test methods with ``@data``.
+    decorate test methods with ``@data.txt``.
 
-    For each method decorated with ``@data``, this will effectively create as
-    many methods as data items are passed as parameters to ``@data``.
+    For each method decorated with ``@data.txt``, this will effectively create as
+    many methods as data.txt items are passed as parameters to ``@data.txt``.
 
     The names of the test methods follow the pattern
-    ``original_test_name_{ordinal}_{data}``. ``ordinal`` is the position of the
-    data argument, starting with 1.
+    ``original_test_name_{ordinal}_{data.txt}``. ``ordinal`` is the position of the
+    data.txt argument, starting with 1.
 
-    For data we use a string representation of the data value converted into a
-    valid python identifier.  If ``data.__name__`` exists, we use that instead.
+    For data.txt we use a string representation of the data.txt value converted into a
+    valid python identifier.  If ``data.txt.__name__`` exists, we use that instead.
 
     For each method decorated with ``@file_data('test_data.json')``, the
     decorator will try to load the test_data.json file located relative
     to the python file containing the method that is decorated. It will,
     for each ``test_name`` key create as many methods in the list of values
-    from the ``data`` key.
+    from the ``data.txt`` key.
 
     """
     for name, func in list(cls.__dict__.items()):

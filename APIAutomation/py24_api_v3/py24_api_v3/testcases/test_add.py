@@ -28,8 +28,8 @@ class TestAdd(unittest.TestCase):
         url = conf.get_str("env", "url") + case["url"]
         # url = conf.get_str("env", "url") + case.url
         # 获取数据
-        case["data"] = replace_data(case["data"])
-        data = eval(case["data"])
+        case["data.txt"] = replace_data(case["data.txt"])
+        data = eval(case["data.txt"])
         # 请求头
         headers = eval(conf.get_str("env", "headers"))
         if case["interface"] != "login":

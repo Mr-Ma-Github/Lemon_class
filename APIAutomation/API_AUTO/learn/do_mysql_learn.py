@@ -49,7 +49,7 @@ if __name__ == '__main__':
     res=DoMysql().do_mysql("select max(CLIENT_PHONE)from CQ_CLIENT where CLIENT_PHONE like'156%'")
     print(res)
     # print(int(res[0]['max(CLIENT_PHONE)'])+1)
-    print(int(res[0][0])+1)
+    # print(int(res[0][0])+1)
 
 
 # ------------------------------------------

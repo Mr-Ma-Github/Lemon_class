@@ -43,14 +43,14 @@ class TestHttpRequest(unittest.TestCase):
 
     # def test_none_un_login(self):
     #     url = "http://119.23.241.154:8080/futureloan/mvc/api/member/login"
-    #     data = {"": "18688773467", "pwd": "123456"}
-    #     res = HttpRequest.http_request(url,data,'post')
+    #     data.txt = {"": "18688773467", "pwd": "123456"}
+    #     res = HttpRequest.http_request(url,data.txt,'post')
     #     print("登录结果是：", res.json())
     #
     # def test_error_pw(self):
     #     url = "http://119.23.241.154:8080/futureloan/mvc/api/member/login"
-    #     data = {"mobilephone": "18688773467", "pwd": "123456"}
-    #     res = HttpRequest.http_request(url, data, 'post')
+    #     data.txt = {"mobilephone": "18688773467", "pwd": "123456"}
+    #     res = HttpRequest.http_request(url, data.txt, 'post')
     #     print("登录结果是：", res.json())
     def test_recharge_normal(self):
         recharge_data = {"mobilephone": "18688773467", "amount": "1000"}

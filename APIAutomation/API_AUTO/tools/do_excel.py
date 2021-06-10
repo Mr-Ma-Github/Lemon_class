@@ -25,10 +25,10 @@ class DoExcel:
                     sub_data["url"] = sheet.cell(item,2).value
                     # NoRegTel
                     if sheet.cell(item,3).value.find("${NoRegTel}")!=-1:#有找到这个 ${tel_1}
-                        sub_data["data"]=sheet.cell(item,3).value.replace(("${NoRegTel}"),str(NoRegTel))
+                        sub_data["data.txt"]=sheet.cell(item,3).value.replace(("${NoRegTel}"),str(NoRegTel))
                         NoRegTel=NoRegTel+1
                     else:#如果没有找到的话
-                        sub_data["data"] =DoRegular.do_regular(str(sheet.cell(item, 3).value))
+                        sub_data["data.txt"] =DoRegular.do_regular(str(sheet.cell(item, 3).value))
                     # 这里是sql语句的处理
                     if sheet.cell(item,4).value != None:
                         if sheet.cell(item, 4).value.find("${normal_tel}") != -1:
@@ -49,10 +49,10 @@ class DoExcel:
                     sub_data["case_id"] = sheet.cell(case_id+1, 1).value
                     sub_data["url"] = sheet.cell(case_id+1, 2).value
                     if sheet.cell(case_id+1,3).value.find("${NoRegTel}")!=-1:#有找到这个 ${tel_1}
-                        sub_data["data"]=sheet.cell(case_id+1,3).value.replace(("${NoRegTel}"),str(NoRegTel))
+                        sub_data["data.txt"]=sheet.cell(case_id+1,3).value.replace(("${NoRegTel}"),str(NoRegTel))
                         NoRegTel=NoRegTel+1
                     else:#如果没有找到的话
-                        sub_data["data"] = DoRegular.do_regular(str(sheet.cell(case_id+1, 3).value))
+                        sub_data["data.txt"] = DoRegular.do_regular(str(sheet.cell(case_id+1, 3).value))
                     #sql语句的处理
                     # 因为有的时候Excel里面没有任何数据，所以要先判断决定是否要用正则处理数据，如果是None正则无法处理
                     # 正则无法处理，另行写代码处理

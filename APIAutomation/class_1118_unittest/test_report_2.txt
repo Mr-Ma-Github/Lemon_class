@@ -1,0 +1,34 @@
+..F....F
+======================================================================
+FAIL: test_add_two_zero (test_class_01.TestMathMethod)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\haiyu.ma\PycharmProjects\lemon_class\APIAutomation\class_1118_unittest\test_class_01.py", line 65, in test_add_two_zero
+    self.assertEqual(1, res, "两个0相加出错了")  # 断言里面msg在用例执行失败的时候才会显示
+AssertionError: 1 != 0 : 两个0相加出错了
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\haiyu.ma\PycharmProjects\lemon_class\APIAutomation\class_1118_unittest\test_class_01.py", line 68, in test_add_two_zero
+    raise AssertionError
+AssertionError
+
+======================================================================
+FAIL: test_login_2_success (test_login_20200904.TestLogin)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\haiyu.ma\PycharmProjects\lemon_class\APIAutomation\class_1118_unittest\test_login_20200904.py", line 23, in test_login_2_success
+    raise e
+  File "C:\Users\haiyu.ma\PycharmProjects\lemon_class\APIAutomation\class_1118_unittest\test_login_20200904.py", line 19, in test_login_2_success
+    self.assertEqual(self.data["excepted"], res["msg"])
+AssertionError: '登录成功1' != '登录成功'
+- 登录成功1
+?     -
++ 登录成功
+
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.345s
+
+FAILED (failures=2)

@@ -36,13 +36,13 @@ class TestRegister(unittest.TestCase):
         method = case["method"]
         # 请求参数
         # 判断是否有有手机号码需要替换
-        if "#phone#" in case["data"]:
+        if "#phone#" in case["data.txt"]:
             # 生成一个手机号码
             phone = self.random_phone()
             # 进行替换
-            case["data"] = case["data"].replace("#phone#", phone)
+            case["data.txt"] = case["data.txt"].replace("#phone#", phone)
 
-        data = eval(case["data"])
+        data = eval(case["data.txt"])
         # 请求头
         headers = eval(conf.get_str("env", "headers"))
         # 预期结果

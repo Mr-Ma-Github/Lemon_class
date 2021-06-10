@@ -14,7 +14,7 @@ class TestHttpRequest(unittest.TestCase):
 
     @data(*test_data)
     def test_api(self,item):
-        res = HttpRequest().http_request(item['url'],eval(item['data']),item['method'],getattr(GetData,'cookie'))
+        res = HttpRequest().http_request(item['url'],eval(item['data.txt']),item['method'],getattr(GetData,'cookie'))
         if res.cookies:  # 如果cookie有值的话就update
             setattr(GetData, 'cookie', res.cookies)
         try:  # 抓取错误  异常处理

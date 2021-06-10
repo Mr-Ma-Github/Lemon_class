@@ -1,0 +1,7 @@
+[2020-09-17 22:14:41,966]-[logging_class_two.py]-DEBUG:第二种log类
+Thu, 17 Sep 2020 22:36:34 INFO logger.py <module> [line:32 INFO 日志信息:hehehe]
+Thu, 17 Sep 2020 22:46:23 INFO logger.py <module> [line:32 INFO 日志信息:hehehe]
+Thu, 17 Sep 2020 22:57:24 INFO logger.py <module> [line:31 INFO 日志信息:hehehe]
+Thu, 17 Sep 2020 22:57:24 INFO logger_call.py <module> [line:8 INFO 日志信息:使用默认的日志收集器RootLogger，输出日志（默认输出WARN级别以上的日志）]
+Thu, 17 Sep 2020 22:57:40 INFO logger_call.py <module> [line:8 INFO 日志信息:使用默认的日志收集器RootLogger，输出日志（默认输出WARN级别以上的日志）]
+Thu, 17 Sep 2020 22:58:19 INFO logger_call.py <module> [line:8 INFO 日志信息:使用默认的日志收集器RootLogger，输出日志（默认输出WARN级别以上的日志）]

@@ -4,19 +4,19 @@
 import unittest
 from API_AUTO.tools.http_request import HttpRequest
 from API_AUTO.tools.get_data import GetData
-from ddt import ddt,data
+from ddt import ddt, data
 from API_AUTO.tools.do_excel_old import DoExcel
 from API_AUTO.tools.project_path import *
 
-test_data=DoExcel.do_excel(test_case_path,'login')
+test_data = DoExcel.do_excel(test_case_path, 'login')
 @ddt
 class TestHttpRequest(unittest.TestCase):
     def setUp(self):
         print("测试开始了")
 
     @data(*test_data)
-    def test_http(self,item):
-        res=HttpRequest().http_request(item["url"],item["data"],item["method"],getattr(GetData,"Cookie"))
+    def test_http(self, item):
+        res=HttpRequest().http_request(item["url"],item["data.txt"],item["method"],getattr(GetData,"Cookie"))
         if res.cookies:
             setattr(GetData,"Cookie",res.cookies)
         try:  # 抓取错误  异常处理

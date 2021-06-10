@@ -104,54 +104,91 @@
 # 4)函数4:角色和机器出拳对战,对战结束后,最后出示本局对战结果..赢 输
 # 然后提示用户是否继续?按y继续,按n退出。
 # 5)最后结束的时候输出结果 角色赢几局 电脑赢几局,平局几次 游戏结束
-import random#随机
-class GuessingGame:
-    def get_user(self):#获取角色
-        self.user={1:"曹操",2:"张飞",3:"刘备"}
-        self.fist = {1: "剪刀", 2: "石头", 3: "布"}
-        num=0
-        while num == 0:
-            self.choose_role = int(input("请选择一个角色(1曹操2张飞3刘备)："))
-            if self.choose_role in self.user:
-                print("{0}请出拳".format(self.user[self.choose_role]))#字典[key]等于字典的value
-                break
-            else:
-                print("角色选择有误,请重新输入")
-    def people_fist(self):#人类出拳
-        num=0
-        while num == 0:
-            guessing = int(input("请选择招式(1=剪刀2=石头3=布):"))
-            if guessing in self.fist:
-                num = 1
-                print("{0}出的是{1}".format(self.user[self.choose_role],self.fist[guessing]))
-                return guessing
-            else:
-                print("出拳错误，请重新出拳")
-    def get_computer_fist(self):#同时出拳
-        fist_num=random.randint(1,3)#从一到三里随机选择一个数字
-        print("电脑出的是{0}".format(self.fist[fist_num]))
-        return fist_num
+# import random#随机
+# class GuessingGame:
+#     def get_user(self):#获取角色
+#         self.user={1:"曹操",2:"张飞",3:"刘备"}
+#         self.fist = {1: "剪刀", 2: "石头", 3: "布"}
+#         num=0
+#         while num == 0:
+#             self.choose_role = int(input("请选择一个角色(1曹操2张飞3刘备)："))
+#             if self.choose_role in self.user:
+#                 print("{0}请出拳".format(self.user[self.choose_role]))#字典[key]等于字典的value
+#                 break
+#             else:
+#                 print("角色选择有误,请重新输入")
+#     def people_fist(self):#人类出拳
+#         num=0
+#         while num == 0:
+#             guessing = int(input("请选择招式(1=剪刀2=石头3=布):"))
+#             if guessing in self.fist:
+#                 num = 1
+#                 print("{0}出的是{1}".format(self.user[self.choose_role], self.fist[guessing]))
+#                 return guessing
+#             else:
+#                 print("出拳错误，请重新出拳")
+#
+#     def get_computer_fist(self):#同时出拳
+#         fist_num=random.randint(1,3)#从一到三里随机选择一个数字
+#         print("电脑出的是{0}".format(self.fist[fist_num]))
+#         return fist_num
+#
+#     def play_game(self):
+#         people_win=0
+#         pc_win=0
+#         draw=0
+#         while True:
+#             self.get_user()
+#             guessing=self.people_fist()
+#             computer=self.get_computer_fist()
+#             if guessing-computer==1 or guessing-computer==-2:
+#                 print("角色赢")
+#                 people_win+=1
+#             elif guessing-computer==-1 or guessing-computer==2:
+#                 print("电脑赢")
+#                 pc_win+=1
+#             elif guessing-computer==0:
+#                 print("平局")
+#                 draw+=1
+#             hint=input("您是否要继续？按y继续，按n退出")
+#             if hint=="n":
+#                 break
+#         print("角色赢了{0}局，电脑赢了{1}局,平{2}局".format(people_win,pc_win,draw))
+#
+# game=GuessingGame().play_game()
 
-    def play_game(self):
-        people_win=0
-        pc_win=0
-        draw=0
-        while True:
-            self.get_user()
-            guessing=self.people_fist()
-            computer=self.get_computer_fist()
-            if guessing-computer==1 or guessing-computer==-2:
-                print("角色赢")
-                people_win+=1
-            elif guessing-computer==-1 or guessing-computer==2:
-                print("电脑赢")
-                pc_win+=1
-            elif guessing-computer==0:
-                print("平局")
-                draw+=1
-            hint=input("您是否要继续？按y继续，按n退出")
-            if hint=="n":
-                break
-        print("角色赢了{0}局，电脑赢了{1}局,平{2}局".format(people_win,pc_win,draw))
+'''
+url:www.baidu.com@username:admin@password:pwd
+url:www.yinyue.com@username:student@password:pwd124
+将这两行数据存在文件中，并以下面的方式返回：
+[{'url': 'www.baidu.com', 'username': 'admin', 'password': 'pwd'},
+{'url': 'www.yinyue.com', 'username': 'student', 'password': 'pwd124'}]
+'''
+import os
+def process_data_dict(lines):
+    infos = lines.split("@")# ['url:www.baidu.com', 'username:admin', 'password:pwd']
+    # print(infos)
+    infos_dict = {}
+    for info in infos:# url:www.baidu.com
+        infos_list = info.split(":")# [url,www.baidu.com]
+        # print(infos_list)
+        infos_dict[infos_list[0]] = infos_list[1]
+    return infos_dict
 
-game=GuessingGame().play_game()
+
+def process_file():# 主程序
+    file_path = os.path.dirname(os.path.abspath(__file__))
+    data_path = file_path + '\data.txt'
+    # data_path2 = "".join([file_path, '\data.txt' ])
+    # print(data_path)
+    with open(data_path, 'r')as f:
+        initial_datas = f.readlines()
+        # print(initial_datas)
+        new_list = []
+        for datas in initial_datas:
+            string_data = datas.rstrip()
+            new_datas = process_data_dict(string_data)
+            new_list.append(new_datas)
+        print(new_list)
+
+process_file()

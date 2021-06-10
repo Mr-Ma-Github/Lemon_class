@@ -1,0 +1,45 @@
+变量:存储数据
+标识符:自定义命名(变量名称、函数名称、类名称、模块名、包名-全是标识符)
+
+数据类型：int float str bool list dict tuple set
+获取数据类型：type()
+数据类型的转换：int()、str()、bool()、dict()、list()
+
+字符串：
+字符串的表示：""       ''      """ """
+字符串中包含引号时，要避免冲突
+反斜杠: \\     ,如果是路径，在路径前加r：r"D:\..."
+字符串操作：
+1. len(),字符串长度,
+2.获取单个字符,索引,mystr[1],索引从 0 开始,不是1开始:
+如果索引超出界限。会报错 IndexError, mystr[100000000000]
+切片,获取多个字符-mystr[start: end : step), start包含，end不包含，取左不取右
+step,中间隔step-1个字符去获取。
+step,可以为负数,负数:从右往左数。
+切片(slice)如果超出范围,不会报错,获取到所有内容。
+format:格式化输出  "my string {} other sting {}".format(变量1,变量2 )
+
+字符串的函数：len(),type(),join(),find(),index(),replace(),split(),strip(),isdigit(),count(),islower(),
+              eval(str),切片：变量名[start: end : step]
+列表：list=[value1,value2,value3...]  作用：存储多个数据，缺点：获取单个元素时可读性不强。
+      支持索引
+添加：append(新值)，insert(索引，新值)，extend([新值1，新值2...])
+修改：列表名[索引] = 新值
+删除：remove(value)，pop(索引)，clear()，del变量名/del 变量名[索引]
+列表的操作：len(),type(),逆序：reverse()，index(值)，count(值)，sort()/sort(reverse=True)
+
+字典：dict={key1：value1，key2：value2...} 作用：存储多个数据     不支持索引
+1.字典是无序的、可变的类型 2.key要唯一，不可变类型(字符串、数字、元祖) 3.value随意
+添加: 字典名[新key]=新值
+修改：字典名[key]=新值
+删除：字典名.popitem(),pop(key),clear(),del变量名/del 变量名[key]
+字典的操作：len(),type(),变量名.keys(),变量名.values(),变量名.items()
+
+元祖：tuple=(value1,value2...)   作用：存储多个数据     支持索引
+1.不允许添加、修改、删除2.元祖里如果有可变类型数据其中的数据是允许添加、修改、删除的-例如：列表、字典
+3.列表里如果有不可变类型数据其中的数据是不允许添加、修改、删除的-例如：元祖
+4.如果元祖里面只有一个元素的时候，要加一个逗号。否则表示的是去掉元祖括号的原始数据类型
+元祖的操作：len(),type()，元祖解包：变量名1，*变量名2 = (value1，value2，value3)
+
+集合：1.去重 2.无序
+add(),update(),remove(),pop()

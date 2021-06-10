@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PYTHON11-WEB页面</title>
+</head>
+<body>
+文本框：
+<input type="text"placeholder="请输入你的名字"></input>
+<input type="text"readonly disabled></input>
+喜欢的动漫：
+<input type="checkbox"checked>海贼王</input>
+<input type="checkbox">火影忍者</input>
+<input type="checkbox">星辰变</input>
+<br>
+<br>
+性别：
+<input type="radio"name="sex">男
+<input type="radio"name="sex">女
+<input type="radio"name="sex">其他
+<br>
+<br>
+上传文件：
+<input type="file">
+<br>
+按钮：
+<input type="button"value="hello html"disabled>
+<button>点我，有惊喜呀</button>
+<br>
+<!--链接-->
+<a href="http://www.baidu.com">百度一下</a>
+<br>
+<img src="https://www.baidu.com/img/bd_logo1.png" height="129" width="270">
+<br>
+年龄：<select>
+    <option ></option>
+    <option >20岁以下</option>
+    <option >20岁到30岁</option>
+    <option >30岁到40岁</option>
+    <option >40岁以上</option>
+</select>>
+<br>
+<form> <!--form标签是使用来创建供用户输入的html表单。比如：注册和登录页面就是用表单实现的-->
+    <input type="text">
+    <table border="2">
+        <tr>
+            <td>11</td>
+            <td>22</td>
+            <td>33</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>22</td>
+            <td>33</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>22</td>
+            <td>33</td>
+        </tr>
+    </table>
+</form>
+
+<iframe src="http://www.baidu.com" height="300" width="500">
+</iframe>
+文本域：
+<textarea></textarea>
+<h1 id="title">H1</h1>
+<h2>H2</h2>
+<h3>H3</h3>
+<h4>H4</h4>
+<h5>H5</h5>
+<h6>H6</h6>
+
+<br>
+<!--<script type="application/javascript">-->
+    <!--var a = [1,2,3,4,555];-->
+    <!--alert(a);-->
+<!--</script>-->
+<!--<script>-->
+    <!--function aaa() {-->
+        <!--var a = [1,2,3,4,555];-->
+        <!--alert(a);-->
+    <!--}-->
+    <!--aaa()-->
+<!--</script>-->
+<script>
+    window.onload=function(){
+        alert("everything is ready!!")
+    };
+    a=document.getElementById("title");
+    a.onmouseover=function(){
+        a.style.color = "red";
+    };
+    a.onmouseout=function(){
+        a.style.color="black";
+    };
+</script>
+</body>
+</html>

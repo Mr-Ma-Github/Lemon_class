@@ -7,7 +7,7 @@ from PageObjects.login_page import LoginPage
 from PageObjects.index_page import IndexPage
 from TestDatas import Common_Datas as CD
 from TestDatas.LoginModuleDatas import login_datas as LD
-from ddt import ddt,data
+from ddt import ddt, data
 import pytest
 import logging
 
